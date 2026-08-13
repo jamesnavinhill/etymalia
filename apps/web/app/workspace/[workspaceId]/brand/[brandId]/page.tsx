@@ -6,7 +6,6 @@ import { AuthButton } from "@/components/auth-button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { createClient } from "@/lib/supabase/server";
 import { loadBrand, type NameCandidateRecord } from "@/lib/brand/load";
-import { buildIdentity } from "@/lib/brand/identity";
 import {
   checkDomain,
   addManualName,
@@ -17,12 +16,10 @@ import {
   deleteReference,
   uploadReference,
   generateBrandPalette,
-  generateFullKit,
   generateSelection,
   generateNames,
   savePalette,
   saveDirection,
-  saveIdentityRecipe,
   saveBrief,
   toggleShortlist,
   useName,
@@ -70,11 +67,10 @@ export default async function BrandPage({
     </>
   );
 
-  const identity = tokens ? buildIdentity(brand.name, tokens, brand.identityRecipe) : null;
   const swatches = tokens ? readColors(tokens) : [];
   const contrast = tokens ? readContrast(tokens) : [];
-  const lockup = identity?.identity.assets.find((asset) => asset.id === "lockup-main");
-  const icon = identity?.identity.assets.find((asset) => asset.id === "icon-main");
+  const logoAssets = assets.filter((asset) => asset.kind === "logo");
+  const visibleAssets = assets.filter((asset) => asset.kind !== "media");
 
   return (
     <main className="app-shell">
@@ -297,7 +293,7 @@ export default async function BrandPage({
         )}
       </section>
 
-      {assets.length ? (
+      {visibleAssets.length ? (
         <section className="brand-block" id="assets" aria-labelledby="assets-title">
           <div className="brand-block__head">
             <p className="eyebrow">Generated kit</p>
@@ -305,7 +301,7 @@ export default async function BrandPage({
             <p className="brand-block__lede">Private, platform-ready derivatives generated from this brand’s current tokens.</p>
           </div>
           <div className="asset-grid">
-            {assets.map((asset) => (
+            {visibleAssets.map((asset) => (
               <article className="asset-card" key={asset.id}>
                 {asset.signedUrl ? <img alt={`${asset.variant} ${asset.lockup}`} src={asset.signedUrl} /> : <div className="asset-card__missing">Preview unavailable</div>}
                 <div className="asset-card__meta">
@@ -323,41 +319,26 @@ export default async function BrandPage({
         <div className="brand-block__head">
           <p className="eyebrow">Step 04</p>
           <h2 id="identity-title">Identity &amp; export</h2>
-          <p className="brand-block__lede">A generated logo direction and variant matrix, packaged with favicon and tokens into a single kit.</p>
+          <p className="brand-block__lede">Generate original vector-mark directions with Gemini and Vertex. Each direction ships as a real icon, horizontal lockup, and stacked lockup—not a configurable monogram template.</p>
         </div>
 
-        {identity && lockup && icon ? (
+        {tokens ? (
           <>
-            <div className="identity-preview">
-              <div className="identity-preview__stage" dangerouslySetInnerHTML={{ __html: lockup.svg }} />
-              <div className="identity-preview__stage identity-preview__stage--icon" dangerouslySetInnerHTML={{ __html: icon.svg }} />
-            </div>
-            <form action={saveIdentityRecipe} className="studio-controls">
-              {hidden}
-              <div className="field-row">
-                <div className="field"><label htmlFor="mark">Mark shape</label><select id="mark" name="mark" defaultValue={brand.identityRecipe.mark}><option value="rounded">Rounded</option><option value="square">Square</option><option value="circle">Circle</option></select></div>
-                <div className="field"><label htmlFor="type">Wordmark voice</label><select id="type" name="type" defaultValue={brand.identityRecipe.type}><option value="editorial">Editorial</option><option value="modern">Modern</option><option value="grotesk">Grotesk</option></select></div>
-                <div className="field"><label htmlFor="tracking">Letter spacing</label><select id="tracking" name="tracking" defaultValue={brand.identityRecipe.tracking}><option value="tight">Tight</option><option value="normal">Normal</option><option value="wide">Wide</option></select></div>
-                <div className="field"><label htmlFor="lockup">Lockup</label><select id="lockup" name="lockup" defaultValue={brand.identityRecipe.lockup}><option value="horizontal">Horizontal</option><option value="stacked">Stacked</option></select></div>
-              </div>
-              <div className="form-actions"><button className="button" type="submit" disabled={!canEdit}>Save logo direction</button></div>
-            </form>
+            {logoAssets.length ? <div className="asset-grid" aria-label="AI logo directions">
+              {logoAssets.map((asset) => (
+                <article className="asset-card" key={`concept-${asset.id}`}>
+                  {asset.signedUrl ? <img alt={`${asset.variant} ${asset.lockup} logo`} src={asset.signedUrl} /> : <div className="asset-card__missing">Preview unavailable</div>}
+                  <div className="asset-card__meta"><strong>{asset.variant} · {asset.lockup}</strong><span>Editable SVG · {asset.meta.source === "google-gemini-vector" ? "Gemini" : "Vertex"}</span>{asset.signedUrl ? <a className="text-link" href={asset.signedUrl} download>Download SVG</a> : null}</div>
+                </article>
+              ))}
+            </div> : <p className="brand-block__empty">No logo directions yet. Generate the first two concepts from this brief and palette.</p>}
             <div className="form-actions">
               <a className="button button--primary" href={`/workspace/${workspaceId}/brand/${brandId}/export`}>
                 Download brand kit (.zip)
               </a>
-              <form action={generateFullKit}>
-                {hidden}
-                <button className="button" type="submit" disabled={!canEdit}>Generate full social kit</button>
-              </form>
-              <form action={generateSelection}><>{hidden}<input name="selection" type="hidden" value="identity" /><button className="button" type="submit" disabled={!canEdit}>Generate logo set</button></></form>
-              <form action={generateSelection}><>{hidden}<input name="selection" type="hidden" value="social" /><button className="button" type="submit" disabled={!canEdit}>Generate social set</button></></form>
-              <form action={generateSelection}><>{hidden}<input name="selection" type="hidden" value="favicon" /><button className="button" type="submit" disabled={!canEdit}>Generate favicon set</button></></form>
-              <form action={generateSelection}><>{hidden}<input name="selection" type="hidden" value="media" /><button className="button" type="submit" disabled={!canEdit}>Generate visual concepts</button></></form>
+              <form action={generateSelection}><>{hidden}<input name="selection" type="hidden" value="logo" /><button className="button" type="submit" disabled={!canEdit}>{logoAssets.length ? "Generate two new logo directions" : "Generate AI logo directions"}</button></></form>
               <span className="hint">
-                {candidates.some((candidate) => candidate.isShortlisted)
-                  ? "Includes shortlisted names."
-                  : "Shortlist names to curate the kit."}
+                Both providers create an original vector mark, then Etymalia composes an exact-name horizontal and stacked lockup plus icon export.
               </span>
             </div>
           </>

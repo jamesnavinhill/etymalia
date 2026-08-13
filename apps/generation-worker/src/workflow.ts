@@ -18,7 +18,7 @@ export class FullKitWorkflow extends WorkflowEntrypoint<Env, GenerationQueueMess
       // Image rollouts do not replace a named Container instance. Version the
       // name with the renderer contract so a new deployment never reattaches
       // a workflow to a stopped predecessor from an earlier image.
-      const container = this.env.RENDERER_CONTAINER.getByName(`renderer-v12:${event.payload.jobId}`);
+      const container = this.env.RENDERER_CONTAINER.getByName(`renderer-v18:${event.payload.jobId}`);
       await container.startAndWaitForPorts({
         startOptions: {
           envVars: {

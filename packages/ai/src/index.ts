@@ -284,7 +284,7 @@ export interface BrandMediaRequest {
   industry: string;
   keywords: string[];
   tone: string[];
-  palette: { primary: string; accent: string; paper: string };
+  palette: { primary: string; accent: string; paper: string; ink?: string };
   aspectRatio: "1:1" | "4:5" | "16:9";
 }
 
@@ -293,6 +293,159 @@ export interface GeneratedBrandMedia {
   model: ProviderModel;
   mimeType: string;
   bytes: Uint8Array;
+}
+
+/**
+ * A deliberately constrained vector vocabulary. The model designs the mark;
+ * the application owns the SVG document, wordmark, and all export lockups.
+ * This prevents provider output from becoming executable SVG in the product.
+ */
+const LogoMarkSchema = z.object({
+  rationale: z.string().min(1).max(700),
+  mark: z.object({
+    paths: z.array(z.object({
+      d: z.string().min(1).max(1_800),
+      fill: z.enum(["primary", "accent", "ink", "paper", "none"]).default("primary"),
+      stroke: z.enum(["primary", "accent", "ink", "paper", "none"]).default("none"),
+      strokeWidth: z.number().min(0).max(12).default(0),
+    })).min(1).max(24),
+    circles: z.array(z.object({
+      cx: z.number().min(0).max(128), cy: z.number().min(0).max(128), r: z.number().min(0.5).max(64),
+      fill: z.enum(["primary", "accent", "ink", "paper", "none"]).default("primary"),
+    })).max(12).default([]),
+    rects: z.array(z.object({
+      x: z.number().min(0).max(128), y: z.number().min(0).max(128), width: z.number().min(0.5).max(128), height: z.number().min(0.5).max(128), rx: z.number().min(0).max(64).default(0),
+      fill: z.enum(["primary", "accent", "ink", "paper", "none"]).default("primary"),
+    })).max(12).default([]),
+  }),
+});
+
+const LogoVectorResponseSchema = z.object({
+  rationale: z.string().min(1).max(700),
+  // A compound path can contain multiple closed subpaths, so this still permits
+  // sophisticated negative-space marks while keeping a provider response
+  // small, validatable, and reliably structured across both lanes.
+  svgPath: z.string().min(1).max(5_000),
+});
+
+// Gemini's JSON MIME mode alone is not sufficient for geometric path payloads:
+// attach an explicit response schema so malformed prose never reaches storage.
+const LogoResponseJsonSchema = {
+  type: "object",
+  required: ["rationale", "svgPath"],
+  properties: {
+    rationale: { type: "string" },
+    svgPath: { type: "string" },
+  },
+} as const;
+
+export type LogoMark = z.infer<typeof LogoMarkSchema>["mark"];
+
+export interface GeneratedBrandLogo {
+  lane: MediaLane;
+  model: ProviderModel;
+  rationale: string;
+  mark: LogoMark;
+}
+
+/** Generate independent, editable vector-mark concepts from each Google lane. */
+export async function generateBrandLogoConcepts(
+  resolver: CredentialResolver,
+  context: AiContext,
+  request: Omit<BrandMediaRequest, "aspectRatio">,
+  lanes: readonly MediaLane[] = ["gemini", "vertex"],
+): Promise<GeneratedBrandLogo[]> {
+  const prompt = logoPrompt(request);
+  const concepts: GeneratedBrandLogo[] = [];
+  for (const lane of lanes) {
+    if (lane === "gemini") {
+      const credential = await resolver.resolve({ ...context, provider: "google" });
+      if (credential.provider !== "google") throw new Error("Gemini credential resolution failed.");
+      const catalog = new LiveProviderModelCatalog(resolver);
+      const model = selectLiveTextModel(await catalog.list(context, "google"), "gemini");
+      concepts.push({ lane, model, ...await generateGeminiLogo(credential, model, prompt) });
+    } else {
+      const credential = await resolver.resolve({ ...context, provider: "google-vertex" });
+      if (credential.provider !== "google-vertex") throw new Error("Vertex credential resolution failed.");
+      const catalog = new LiveProviderModelCatalog(resolver);
+      const model = selectLiveTextModel(await catalog.list(context, "google-vertex"), "vertex");
+      concepts.push({ lane, model, ...await generateVertexLogo(credential, model, prompt) });
+    }
+  }
+  return concepts;
+}
+
+function selectLiveTextModel(models: ProviderModel[], lane: MediaLane): ProviderModel {
+  const model = models
+    .filter((candidate) => lane === "gemini"
+      ? candidate.supports.includes("generateContent")
+      : /^gemini/i.test(candidate.id))
+    // Publisher catalogues include experimental, live, TTS, embedding and
+    // image revisions beside general text models. They can share a prefix but
+    // do not all implement this request. Choose only a current Pro text model
+    // discovered at runtime; no provider model ID is pinned in source.
+    .filter((candidate) => /pro/i.test(`${candidate.id} ${candidate.displayName}`))
+    .filter((candidate) => !/(?:image|imagen|embed|tts|live|exp|preview|flash)/i.test(`${candidate.id} ${candidate.displayName}`))
+    .sort((left, right) => imageQualityRank(right) - imageQualityRank(left) || compareVersion(right.version, left.version) || right.id.localeCompare(left.id))[0];
+  if (!model) throw new Error(`No live ${lane} text model is available for logo generation.`);
+  return model;
+}
+
+function logoPrompt(request: Omit<BrandMediaRequest, "aspectRatio">): string {
+  return [
+    "You are designing an original, premium vector logo mark. Return JSON only; it must match the requested schema.",
+    `Brand name: ${request.name}. Business: ${request.description || request.industry}.`,
+    `Keywords: ${request.keywords.join(", ") || "clarity, craft"}. Tone: ${request.tone.join(", ") || "refined"}.`,
+    `Use the semantic palette primary=${request.palette.primary}, accent=${request.palette.accent}, ink=${request.palette.ink ?? request.palette.primary}, paper=${request.palette.paper}.`,
+    "Create a distinctive abstract symbol, not a monogram, initial, letter, generic sparkle, infinity loop, swoosh, shield, or stock icon. The mark must be legible at 24px and use considered negative space. Do not include text; the application composes the exact wordmark itself.",
+    "Return exactly {\"rationale\": string, \"svgPath\": string}. svgPath is one compound SVG path in a 0 0 128 128 viewBox; it may contain multiple closed subpaths to create negative space. Use only ordinary SVG path commands (M,L,H,V,C,S,Q,T,A,Z) and numeric coordinates. Keep it simple, balanced, and production-ready.",
+  ].join("\n");
+}
+
+function parseLogoResponse(value: string): Omit<GeneratedBrandLogo, "lane" | "model"> {
+  const fenced = value.match(/```(?:json)?\s*([\s\S]*?)```/i)?.[1] ?? value;
+  const first = fenced.indexOf("{");
+  const last = fenced.lastIndexOf("}");
+  if (first < 0 || last <= first) throw new Error("Logo model returned no JSON object.");
+  const object = LogoVectorResponseSchema.parse(JSON.parse(fenced.slice(first, last + 1)));
+  if (!/^[MmLlHhVvCcSsQqTtAaZz0-9, .+\-]+$/.test(object.svgPath)) throw new Error("Logo model returned unsafe SVG path data.");
+  return { rationale: object.rationale, mark: { paths: [{ d: object.svgPath, fill: "primary", stroke: "none", strokeWidth: 0 }], circles: [], rects: [] } };
+}
+
+async function generateGeminiLogo(
+  credential: Extract<ResolvedCredential, { provider: "google" }>, model: ProviderModel, prompt: string,
+): Promise<Omit<GeneratedBrandLogo, "lane" | "model">> {
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model.id)}:generateContent?key=${encodeURIComponent(credential.apiKey)}`, {
+    method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ contents: [{ role: "user", parts: [{ text: prompt }] }], generationConfig: { responseMimeType: "application/json", responseJsonSchema: LogoResponseJsonSchema } }),
+  });
+  if (!response.ok) throw new Error(`Gemini logo request failed: ${response.status}`);
+  const data = await response.json() as GeminiImageResponse;
+  const text = data.candidates?.flatMap((candidate) => candidate.content?.parts ?? []).map((part) => (part as { text?: unknown }).text).find((part): part is string => typeof part === "string");
+  if (!text) throw new Error("Gemini returned no vector-logo response.");
+  return parseLogoResponse(text);
+}
+
+async function generateVertexLogo(
+  credential: Extract<ResolvedCredential, { provider: "google-vertex" }>, model: ProviderModel, prompt: string,
+): Promise<Omit<GeneratedBrandLogo, "lane" | "model">> {
+  const auth = new GoogleAuth({ credentials: { client_email: credential.clientEmail, private_key: credential.privateKey }, scopes: ["https://www.googleapis.com/auth/cloud-platform"] });
+  const token = await auth.getAccessToken();
+  if (!token) throw new Error("Unable to authenticate the Vertex logo request.");
+  const host = credential.location === "global" ? "aiplatform.googleapis.com" : `${credential.location}-aiplatform.googleapis.com`;
+  const url = `https://${host}/v1beta1/projects/${credential.project}/locations/${credential.location}/publishers/google/models/${encodeURIComponent(model.id)}:generateContent`;
+  const response = await fetch(url, {
+    method: "POST", headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
+    // The global Vertex publisher endpoint rejects structured-output controls
+    // for several live Gemini revisions. The prompt asks for exact JSON and
+    // parseLogoResponse is the strict boundary before anything is persisted.
+    body: JSON.stringify({ contents: [{ role: "user", parts: [{ text: prompt }] }] }),
+  });
+  if (!response.ok) throw new Error(`Vertex logo request failed: ${response.status}`);
+  const data = await response.json() as GeminiImageResponse;
+  const text = data.candidates?.flatMap((candidate) => candidate.content?.parts ?? []).map((part) => (part as { text?: unknown }).text).find((part): part is string => typeof part === "string");
+  if (!text) throw new Error("Vertex returned no vector-logo response.");
+  return parseLogoResponse(text);
 }
 
 interface GeminiImageResponse {

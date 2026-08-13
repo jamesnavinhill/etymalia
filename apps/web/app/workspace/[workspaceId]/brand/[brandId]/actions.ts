@@ -352,7 +352,7 @@ export async function generateSelection(formData: FormData) {
   const target = ids(formData);
   const { supabase, brand, userId } = await requireEditableBrand(target);
   const selection = String(formData.get("selection") ?? "");
-  const requested = selection === "identity" ? [{ kind: "identity" }] : selection === "social" ? [{ kind: "social" }] : selection === "favicon" ? [{ kind: "favicon" }] : selection === "media" ? [{ kind: "media" }] : null;
+  const requested = selection === "logo" ? [{ kind: "logo" }] : selection === "social" ? [{ kind: "social" }] : selection === "favicon" ? [{ kind: "favicon" }] : null;
   if (!requested) done(target, "?error=full-kit#identity");
   const { data: tokenRow } = await supabase.from("brand_tokens").select("version").eq("brand_id", target.brandId).maybeSingle();
   if (!tokenRow) done(target, "?error=export-needs-palette#identity");
