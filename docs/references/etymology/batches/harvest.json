@@ -1,0 +1,810 @@
+[
+  {
+    "word": "Gather",
+    "semanticField": "Gather / Assembly",
+    "layers": {
+      "pie": "*ghedh- (to unite, join)",
+      "protoGermanic": "*gadurōną (to come together)",
+      "oldEnglish": "gaderian",
+      "middleEnglish": "gaderen"
+    },
+    "driftNotes": "To unite > people coming together > collecting what is scattered; an unmistakable call-to-assembly for community-first brands.",
+    "candidates": ["Gadria", "Gathren", "Gadur"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Assemble",
+    "semanticField": "Gather / Convene",
+    "layers": {
+      "classicalLatin": "adsimulare (to bring together, ad + simul 'at the same time')",
+      "vulgarLatin": "assimulare",
+      "oldFrench": "asembler",
+      "middleEnglish": "assemblen"
+    },
+    "driftNotes": "Simul 'together' > flocks and workgroups converging > flat-pack self-assembly; reads both human and machine, great for builder brands.",
+    "candidates": ["Assembla", "Sembla", "Simul"],
+    "tone": "French/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Commune",
+    "semanticField": "Community / Share",
+    "layers": {
+      "classicalLatin": "communis (held in common), communicare (to share)",
+      "vulgarLatin": "communia (common lands)",
+      "oldFrench": "commune",
+      "middleEnglish": "comune"
+    },
+    "driftNotes": "Shared burdens > medieval towns governing themselves > intimate talk and shared spirit; the communion-echo gives community a soul.",
+    "candidates": ["Comuna", "Communa", "Munis"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Circle",
+    "semanticField": "Community / Ring",
+    "layers": {
+      "ancientGreek": "kirkos / krikos (κρίκος, ring)",
+      "classicalLatin": "circus, circulus (little ring)",
+      "oldFrench": "cercle",
+      "middleEnglish": "cercle"
+    },
+    "driftNotes": "A ring > the people seated inside it > an inner circle of trust; the friendliest possible word for belonging.",
+    "candidates": ["Circula", "Kirkos", "Cercle"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Rally",
+    "semanticField": "Gather / Reunite",
+    "layers": {
+      "pie": "*leig- (to bind)",
+      "classicalLatin": "adligare (to bind to)",
+      "oldFrench": "rallier (re- + allier, to re-ally)",
+      "middleEnglish": "rallyen (to reassemble troops)"
+    },
+    "driftNotes": "To bind again > scattered ranks re-thronging the flag > renewed energy after a setback; a comeback word with crowd heat.",
+    "candidates": ["Rallia", "Rallier", "Reya"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Band",
+    "semanticField": "Community / Bond",
+    "layers": {
+      "pie": "*bhendh- (to bind)",
+      "protoGermanic": "*bandą (bond, ribbon)",
+      "oldNorse": "band",
+      "oldFrench": "bande (troop under one banner)",
+      "middleEnglish": "bande"
+    },
+    "driftNotes": "A binding strap > men bound under one standard > a band of fellows (and players); kinship you can wear.",
+    "candidates": ["Banda", "Bande", "Bhend"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Troop",
+    "semanticField": "Community / Crowd",
+    "layers": {
+      "protoGermanic": "*þurpą (village, settled crowd) — debated source",
+      "vulgarLatin": "*troppus (a herd of people)",
+      "oldFrench": "trope, troupe"
+    },
+    "driftNotes": "A village crowd > a company of soldiers or actors > any loyal crew; carries cheerful ensemble energy, not regiment rigor.",
+    "candidates": ["Troppa", "Troupa", "Thorp"],
+    "tone": "French",
+    "syllables": 1
+  },
+  {
+    "word": "Muster",
+    "semanticField": "Gather / Assemble",
+    "layers": {
+      "classicalLatin": "monstrare (to show, display)",
+      "vulgarLatin": "mustrare",
+      "oldFrench": "moustrer",
+      "middleEnglish": "musteren (to display troops for review)"
+    },
+    "driftNotes": "To show > showing up to be counted > passing muster; assembly with an inspection-grade edge of proof.",
+    "candidates": ["Mustra", "Mostra", "Mustr"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Guild",
+    "semanticField": "Community / Craft",
+    "layers": {
+      "protoGermanic": "*guldiją (payment, tribute owed in gold)",
+      "oldEnglish": "gild (association bound by mutual dues)",
+      "oldNorse": "gildi",
+      "middleEnglish": "gilde"
+    },
+    "driftNotes": "Dues paid in gold > feasts funded in common > the medieval craft brotherhood; gold-threaded community, made for artisan brands.",
+    "candidates": ["Gilda", "Gilder", "Gylde"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Cadre",
+    "semanticField": "Community / Core",
+    "layers": {
+      "pie": "*kʷetuóres (four)",
+      "classicalLatin": "quadrum (square, from quattuor 'four')",
+      "oldFrench": "cadre (French borrowing via Italian quadro; attested 16c.)"
+    },
+    "driftNotes": "Latin quadrum > Italian quadro > French cadre, a frame of officers > any tight core group; a small-squad word with structural bones. (EN borrowing 19c.)",
+    "candidates": ["Cadra", "Quadro", "Kadr"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Carry",
+    "semanticField": "Carry / Transport",
+    "layers": {
+      "celtic": "*karros (Gaulish wagon)",
+      "classicalLatin": "carrus (four-wheeled wagon)",
+      "vulgarLatin": "carricare (to load a cart)",
+      "oldFrench": "carier",
+      "middleEnglish": "carien"
+    },
+    "driftNotes": "A Gaulish wagon > loading it > bearing weight for others; humble, tireless, freight-ready — logistics brands wag it.",
+    "candidates": ["Caria", "Karro", "Carric"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Harbinger",
+    "semanticField": "Herald / Forerunner",
+    "layers": {
+      "protoGermanic": "*harjabergaz (army-shelter: *harjaz 'host' + *bergaz 'protection')",
+      "oldFrench": "herbergeor (one who lodges a host)",
+      "middleEnglish": "herbergere (scout sent ahead for lodgings)"
+    },
+    "driftNotes": "The quartermaster riding ahead to billet the army > anything that comes before to announce what follows; portent with purpose.",
+    "candidates": ["Herber", "Harbin", "Bergar"],
+    "tone": "Germanic",
+    "syllables": 3
+  },
+  {
+    "word": "Portage",
+    "semanticField": "Carry / Transit",
+    "layers": {
+      "classicalLatin": "portare (to carry), portus (harbor)",
+      "oldFrench": "portage",
+      "middleEnglish": "portage (the carry between two waters)"
+    },
+    "driftNotes": "To carry > hauling a canoe overland between rivers > any thoughtful leg of a journey; elegant for routing and migration brands.",
+    "candidates": ["Porta", "Portaj", "Portar"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Envoy",
+    "semanticField": "Herald / Messenger",
+    "layers": {
+      "classicalLatin": "inviare (to send on the way: in + via)",
+      "oldFrench": "envoi (a sending), envoié (one sent)"
+    },
+    "driftNotes": "Sent on the road > a diplomatic emissary > the dedicatory verse a book sends after its reader; dispatch polished with grace.",
+    "candidates": ["Envoi", "Voya", "Envor"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Courier",
+    "semanticField": "Carry / Runner",
+    "layers": {
+      "pie": "*kers- (to run)",
+      "classicalLatin": "currere (to run), cursor (runner)",
+      "oldFrench": "coreor",
+      "middleEnglish": "corour"
+    },
+    "driftNotes": "A runner > a state messenger > last-mile delivery; speed with stewardship, the anti-spam word for things that arrive.",
+    "candidates": ["Coreo", "Couria", "Cursor"],
+    "tone": "French/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Herald",
+    "semanticField": "Herald / Announce",
+    "layers": {
+      "protoGermanic": "*harjawaldaz (army-ruler: *harjaz 'host' + *waldaz 'power')",
+      "oldFrench": "heraut",
+      "middleEnglish": "heraud"
+    },
+    "driftNotes": "Commander of the host > medieval officer of arms and ceremonies > forerunning proclaimer; announcement wearing a tabard.",
+    "candidates": ["Heralda", "Harald", "Heraldo"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Ferry",
+    "semanticField": "Carry / Cross",
+    "layers": {
+      "pie": "*per- (to lead or pass across)",
+      "protoGermanic": "*farjaną (to carry over)",
+      "oldEnglish": "ferian",
+      "oldNorse": "ferja",
+      "middleEnglish": "ferien"
+    },
+    "driftNotes": "To convey across > a boat crossing water > shuttling steadily between two sides; reliability made nautical.",
+    "candidates": ["Feria", "Ferryn", "Farja"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Usher",
+    "semanticField": "Herald / Guide",
+    "layers": {
+      "classicalLatin": "ostiarius (doorkeeper, from ostium 'door')",
+      "vulgarLatin": "ustiarius",
+      "oldFrench": "ussier, uissier",
+      "middleEnglish": "usshere"
+    },
+    "driftNotes": "The keeper of the door > escort to your seat > one who inaugurates new eras; a doorway as a noun — threshold hospitality.",
+    "candidates": ["Ussher", "Ostia", "Ushly"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Emissary",
+    "semanticField": "Herald / Delegate",
+    "layers": {
+      "classicalLatin": "emittere (to send out: ex + mittere), emissarius",
+      "vulgarLatin": "*missarius (one sent)"
+    },
+    "driftNotes": "One sent out > an agent on a confidential mission > a brand's roaming voice; diplomacy with a little cloak-and-dagger glamour.",
+    "candidates": ["Emissa", "Mitter", "Missary"],
+    "tone": "Latin",
+    "syllables": 4
+  },
+  {
+    "word": "Marshal",
+    "semanticField": "Carry / Arrange",
+    "layers": {
+      "protoGermanic": "*marhaskalkaz (horse-servant: *marhaz 'horse' + *skalkaz 'servant')",
+      "oldFrench": "mareschal",
+      "middleEnglish": "mareschal"
+    },
+    "driftNotes": "Stable-hand > chief of horse > field commander who arrays forces; organizing power with spurs still on.",
+    "candidates": ["Marescal", "Marisca", "Skalka"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Metric",
+    "semanticField": "Measure / Standard",
+    "layers": {
+      "pie": "*meh₁- (to measure)",
+      "ancientGreek": "metron (μέτρον, measure)",
+      "classicalLatin": "metricus (pertaining to measure or verse)"
+    },
+    "driftNotes": "Measure > poetic meter and decimal systems > the KPI era's own name; data-brand catnip with Greek pedigree.",
+    "candidates": ["Metrik", "Metron", "Metry"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Gage",
+    "semanticField": "Measure / Pledge",
+    "layers": {
+      "protoGermanic": "*wadją (pledge, security)",
+      "oldFrench": "gage (pledge; gauge, a measuring rod)",
+      "middleEnglish": "gage"
+    },
+    "driftNotes": "A pledge thrown down > a gauntlet > a rod for measuring; stakes plus standards — risk and rigor in one syllable.",
+    "candidates": ["Gadja", "Gauj", "Wadge"],
+    "tone": "French",
+    "syllables": 1
+  },
+  {
+    "word": "Assay",
+    "semanticField": "Proof / Test",
+    "layers": {
+      "classicalLatin": "exagium (a weighing-out, from exigere 'to drive out, require')",
+      "vulgarLatin": "*exagiare > essai",
+      "oldFrench": "essai (trial, attempt)",
+      "middleEnglish": "assaie"
+    },
+    "driftNotes": "Weighing out > testing ore for purity > any trying attempt (essay's sterner sibling); quality control with luster.",
+    "candidates": ["Essai", "Exage", "Assaye"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Proof",
+    "semanticField": "Proof / Test",
+    "layers": {
+      "classicalLatin": "probare (to test, approve, from probus 'good')",
+      "vulgarLatin": "proba",
+      "oldFrench": "preuve",
+      "middleEnglish": "proeve, profe"
+    },
+    "driftNotes": "Testing goodness > demonstration that convinces > printer's trial sheet and alcohol strength; results you can show.",
+    "candidates": ["Prova", "Probar", "Proeve"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Balance",
+    "semanticField": "Measure / Equilibrium",
+    "layers": {
+      "classicalLatin": "bilanx (two-pan scale: bi- + lanx 'dish')",
+      "vulgarLatin": "bilancia",
+      "oldFrench": "balance",
+      "middleEnglish": "balaunce"
+    },
+    "driftNotes": "Two pans in equipoise > ledger ledgers and life rhythms > the UX of weight; trust rendered as stillness.",
+    "candidates": ["Bilanx", "Balancia", "Lanx"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Scale",
+    "semanticField": "Measure / Gradation",
+    "layers": {
+      "protoGermanic": "*skēlō (drinking bowl, weighing pan)",
+      "oldNorse": "skāl (bowl, balance)",
+      "classicalLatin": "scala (ladder, flight of steps)",
+      "middleEnglish": "scale"
+    },
+    "driftNotes": "Two homonyms fused: the Norse weighing-pan and the Latin ladder > weigh, grade, and grow; the growth-stack word itself.",
+    "candidates": ["Skali", "Scala", "Skala"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Measure",
+    "semanticField": "Measure / Gauge",
+    "layers": {
+      "pie": "*meh₁- (to measure)",
+      "classicalLatin": "mensura, metiri",
+      "oldFrench": "mesure",
+      "middleEnglish": "mesure"
+    },
+    "driftNotes": "To size up > proportion in verse and building > tempered restraint ('due measure'); quantified calm.",
+    "candidates": ["Mesura", "Mensur", "Metiri"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Plumb",
+    "semanticField": "Measure / Depth",
+    "layers": {
+      "classicalLatin": "plumbum (lead; the plumb-line weight)",
+      "oldFrench": "plombe, plongier",
+      "middleEnglish": "plumbe, plumben"
+    },
+    "driftNotes": "Lead on a line > true vertical > probing depths and depths of sense ('fully plumb'); squareness you can hang a building on.",
+    "candidates": ["Plumba", "Plomb", "Plumbo"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Caliber",
+    "semanticField": "Measure / Quality",
+    "layers": {
+      "ancientGreek": "kalapous (καλάπους, shoemaker's last)",
+      "arabic": "qālib (قالب, mold, last)"
+    },
+    "driftNotes": "Cobbler's last > mold of a bore > degree of worth ('of high caliber'); a mold that became a meritocracy word.",
+    "candidates": ["Qalib", "Calibra", "Calibar"],
+    "tone": "Arabic",
+    "syllables": 3
+  },
+  {
+    "word": "Standard",
+    "semanticField": "Measure / Benchmark",
+    "layers": {
+      "protoGermanic": "*standaną (to stand)",
+      "oldFrench": "estandart (rallying banner)",
+      "middleEnglish": "standard"
+    },
+    "driftNotes": "The banner you stand at > a king's rallying flag > the agreed measure of quality; flag-planting as spec sheet.",
+    "candidates": ["Standa", "Estand", "Standart"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Sigil",
+    "semanticField": "Mark / Seal",
+    "layers": {
+      "pie": "*sek- (to cut)",
+      "classicalLatin": "signum (sign) > sigillum (little mark)",
+      "vulgarLatin": "sigillum",
+      "middleEnglish": "sigil"
+    },
+    "driftNotes": "A little mark > the seal that seals the writ > a sign charged with occult force; compact cult-classic brand glyph.",
+    "candidates": ["Sigla", "Sigille", "Sigyl"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Emblem",
+    "semanticField": "Mark / Symbol",
+    "layers": {
+      "ancientGreek": "emblema (ἔμβλημα, inserted ornament, from emballein 'to throw in')",
+      "classicalLatin": "emblema (inlaid work)",
+      "oldFrench": "embleme"
+    },
+    "driftNotes": "A mosaic inlay > allegorical picture-book > the crest on the football shirt; symbolism you wear on the sleeve.",
+    "candidates": ["Emblema", "Blemma", "Embly"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Token",
+    "semanticField": "Mark / Sign",
+    "layers": {
+      "pie": "*deik- (to show)",
+      "protoGermanic": "*tōkną (sign, evidence)",
+      "oldEnglish": "tācen",
+      "oldNorse": "teikn",
+      "middleEnglish": "token"
+    },
+    "driftNotes": "A showing > a keepsake or voucher > the crypto age's unit of access; proof-sized meaning that trades well.",
+    "candidates": ["Tacen", "Tokna", "Teikn"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Glyph",
+    "semanticField": "Mark / Character",
+    "layers": {
+      "pie": "*gleubh- (to split, cleave, carve)",
+      "ancientGreek": "glyphē (γλυφή, carving, from glyphein 'to carve')",
+      "classicalLatin": "anaglypha (work in relief; Latin carries Greek glyphein only in compounds)"
+    },
+    "driftNotes": "Stone-carving > hieroglyphic characters > the tiniest unit of typography; a one-syllable chisel for design brands.",
+    "candidates": ["Glyphe", "Glyphis", "Carva"],
+    "tone": "Greek",
+    "syllables": 1
+  },
+  {
+    "word": "Badge",
+    "semanticField": "Mark / Insignia",
+    "layers": {
+      "classicalLatin": "baga (ring — proposed source; origins partly obscure)",
+      "vulgarLatin": "*bagia",
+      "middleEnglish": "bage, badge"
+    },
+    "driftNotes": "Ringlet > knight's device > merit chip and status flair; gamified belonging that needs no introduction.",
+    "candidates": ["Bajea", "Badgia", "Badgea"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Mark",
+    "semanticField": "Mark / Boundary",
+    "layers": {
+      "pie": "*merǵ- (boundary, border)",
+      "protoGermanic": "*markō (boundary, sign)",
+      "oldEnglish": "mearc",
+      "oldNorse": "mark",
+      "middleEnglish": "marke"
+    },
+    "driftNotes": "A borderline > a trace left on something > the target and the sign; one syllable naming half of branding.",
+    "candidates": ["Marko", "Mearc", "Marka"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Crest",
+    "semanticField": "Mark / Summit",
+    "layers": {
+      "classicalLatin": "crista (tuft, plume on a helmet)",
+      "oldFrench": "creste",
+      "middleEnglish": "creste"
+    },
+    "driftNotes": "A rooster's comb > the device above the shield > wave-top and summit; proud lineage with peak energy.",
+    "candidates": ["Crista", "Cresta", "Kresta"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Seal",
+    "semanticField": "Mark / Authority",
+    "layers": {
+      "classicalLatin": "sigillum (small seal-stamp)",
+      "oldFrench": "seel",
+      "middleEnglish": "sele, seel"
+    },
+    "driftNotes": "Little sign > waxed warrant of authenticity > closing and assuring; giveaway for trust marks and approvals.",
+    "candidates": ["Seela", "Sigel", "Sealy"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Stamp",
+    "semanticField": "Mark / Imprint",
+    "layers": {
+      "protoGermanic": "*stampōną (to pound down)",
+      "oldEnglish": "stempan",
+      "oldFrench": "estamper (Germanic loan)",
+      "middleEnglish": "stampen"
+    },
+    "driftNotes": "Pounding flat > inked impression > passport ink and 'stamp of approval'; decisive, analog, satisfying.",
+    "candidates": ["Stampa", "Estamp", "Stempa"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Banner",
+    "semanticField": "Mark / Flag",
+    "layers": {
+      "protoGermanic": "*bandwą (sign, standard)",
+      "vulgarLatin": "bandum, bannum",
+      "oldFrench": "baniere",
+      "middleEnglish": "banere"
+    },
+    "driftNotes": "A rallying sign > knights' ensigns > web hero blocks; big rallies and big headlines in one flutter.",
+    "candidates": ["Baniera", "Bandwa", "Bannum"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Weft",
+    "semanticField": "Weave / Thread",
+    "layers": {
+      "protoGermanic": "*weftan, from *webjaną (to weave)",
+      "oldEnglish": "wefta, weft (that which is woven crosswise)",
+      "middleEnglish": "weft"
+    },
+    "driftNotes": "The crosswise thread > the filling that makes cloth > the quiet half of creation vs showy warp; understated maker mark.",
+    "candidates": ["Wefta", "Wefb", "Webft"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Warp",
+    "semanticField": "Weave / Foundation",
+    "layers": {
+      "protoGermanic": "*warpaną (to throw, cast, twist)",
+      "oldEnglish": "weorp (throw); wearp- in weaving compounds",
+      "middleEnglish": "warp (threads set first on the loom)"
+    },
+    "driftNotes": "Casting thread > the upright base threads > speeding faster than light and bending wood; sci-fi doorstop with looms inside.",
+    "candidates": ["Warpa", "Worpan", "Warpt"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Braid",
+    "semanticField": "Weave / Interlace",
+    "layers": {
+      "protoGermanic": "*bregdaną (to move quickly, plait)",
+      "oldEnglish": "breġdan",
+      "oldNorse": "bregða",
+      "middleEnglish": "braiden"
+    },
+    "driftNotes": "A quick darting motion > strands interwoven > hair, bread, and braided rivers; interlacing with warmth.",
+    "candidates": ["Bregda", "Braide", "Bregd"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Lattice",
+    "semanticField": "Weave / Grid",
+    "layers": {
+      "protoGermanic": "*lattō (lath, thin strip)",
+      "oldFrench": "lattis (work of laths)",
+      "oldEnglish": "lætt (lath, cognate)",
+      "middleEnglish": "latis"
+    },
+    "driftNotes": "Crossed strips > garden screens > crystal grids and math lattices; airy structure, half garden half physics.",
+    "candidates": ["Lattis", "Latta", "Latis"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Mesh",
+    "semanticField": "Weave / Network",
+    "layers": {
+      "protoGermanic": "*maskją (knot, loop) — lineage somewhat debated",
+      "middleEnglish": "messche (net-opening)"
+    },
+    "driftNotes": "Net loops > gears engaging > distributed networks; the default topology word for connected things.",
+    "candidates": ["Mesha", "Maskwa", "Meshe"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Weave",
+    "semanticField": "Weave / Craft",
+    "layers": {
+      "pie": "*webh- (to weave, move quickly)",
+      "protoGermanic": "*webaną",
+      "oldEnglish": "wefan",
+      "oldNorse": "vefa",
+      "middleEnglish": "weven"
+    },
+    "driftNotes": "Thread to cloth > weaving tales and traffic alike; craft-as-verb, the loom's own sound.",
+    "candidates": ["Weva", "Webna", "Vefa"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Loom",
+    "semanticField": "Weave / Tool",
+    "layers": {
+      "oldEnglish": "ġelōma (tool, utensil)",
+      "middleEnglish": "lome"
+    },
+    "driftNotes": "Any tool > the weaver's frame > looming large on horizons; anticipation threaded with making.",
+    "candidates": ["Looma", "Geloma", "Lome"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Strand",
+    "semanticField": "Weave / Fiber",
+    "layers": {
+      "oldFrench": "estran (rope-fiber, of Germanic origin)",
+      "middleEnglish": "strond (single fiber of rope)"
+    },
+    "driftNotes": "A rope's single fiber > threads braided into strength > shores and storylines too; modular strength, one ply at a time.",
+    "candidates": ["Stronda", "Estran", "Stranda"],
+    "tone": "French",
+    "syllables": 1
+  },
+  {
+    "word": "Trellis",
+    "semanticField": "Weave / Framework",
+    "layers": {
+      "classicalLatin": "trilix (three-threaded: tri- + licium)",
+      "vulgarLatin": "trilicia",
+      "oldFrench": "trelis",
+      "middleEnglish": "trelis"
+    },
+    "driftNotes": "Fine three-thread weave > garden frame for climbing vines > lattice codework; growth given scaffolding.",
+    "candidates": ["Trelis", "Trilix", "Trelya"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Splice",
+    "semanticField": "Weave / Join",
+    "layers": {
+      "pie": "*(s)plei- (to split, splice)",
+      "protoGermanic": "*splītaną (to split) — lineage continued in Middle Dutch splis(s)en"
+    },
+    "driftNotes": "Splitting rope ends so strands marry > film editing > gene editing; joining as an exact art. (Via Middle Dutch splissen.)",
+    "candidates": ["Splissa", "Splizen", "Splicen"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Sprout",
+    "semanticField": "Grow / Emerge",
+    "layers": {
+      "protoGermanic": "*sprūtaną (to shoot forth)",
+      "middleEnglish": "sprouten"
+    },
+    "driftNotes": "Shooting forth > seedling optimism > fresh output ('sprout an idea'); green-thumb momentum in one syllable.",
+    "candidates": ["Spruta", "Sprouten", "Sprota"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Burgeon",
+    "semanticField": "Grow / Sprout",
+    "layers": {
+      "classicalLatin": "burra (shaggy wool — buds thought woolly)",
+      "vulgarLatin": "*burrionem (bud, shoot)",
+      "oldFrench": "bourgeon",
+      "middleEnglish": "burjoun, burion"
+    },
+    "driftNotes": "Woolly bud > springing leaf > rapid flourishing; buds-as-business growth with instant poetic charge.",
+    "candidates": ["Burjon", "Burja", "Burgun"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Bud",
+    "semanticField": "Grow / Potential",
+    "layers": {
+      "protoGermanic": "*bautaną (to push, strike — by proposed extension)",
+      "oldFrench": "bouter (to push; bouton 'bud, button')",
+      "middleEnglish": "budde"
+    },
+    "driftNotes": "Something pushed out > the flower-to-come > friendship ('buddy') echoes; potential held tight before the bloom.",
+    "candidates": ["Budde", "Buton", "Buder"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Root",
+    "semanticField": "Grow / Foundation",
+    "layers": {
+      "pie": "*wréh₂ds (root)",
+      "protoGermanic": "*wrōts",
+      "oldNorse": "rót",
+      "oldEnglish": "rōt (Norse loan)",
+      "middleEnglish": "rote, rut"
+    },
+    "driftNotes": "Underground anchor > source and origin of things > plants and permissions ('root access'); depth and first causes.",
+    "candidates": ["Rota", "Wrot", "Ruta"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Seed",
+    "semanticField": "Grow / Origin",
+    "layers": {
+      "pie": "*sē- / *seh₁- (to sow)",
+      "protoGermanic": "*sēdiz (that which is sown)",
+      "oldEnglish": "sǣd",
+      "middleEnglish": "seed, sede"
+    },
+    "driftNotes": "Sowing > germ of everything > seed rounds and random seeds; smallest unit of future yield.",
+    "candidates": ["Seda", "Saed", "Seede"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Kernel",
+    "semanticField": "Grow / Core",
+    "layers": {
+      "protoGermanic": "*kurną (grain)",
+      "oldEnglish": "cyrnel (little corn, seed-pip)",
+      "middleEnglish": "kirnel"
+    },
+    "driftNotes": "A little grain > pip at the fruit's heart > the OS core; the center where the program of a fruit lives.",
+    "candidates": ["Cyrnel", "Kerna", "Kurnel"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Grove",
+    "semanticField": "Grow / Stand",
+    "layers": {
+      "oldEnglish": "grāf (copse, thicket)",
+      "middleEnglish": "grove"
+    },
+    "driftNotes": "A dug-out thicket > sacred groves and orange groves > chosen company of trees; hospitable shade with a mythic floor.",
+    "candidates": ["Grova", "Grafa", "Groven"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Canopy",
+    "semanticField": "Grow / Cover",
+    "layers": {
+      "ancientGreek": "kōnōps (κώνωψ, gnat) > kōnōpeion (net to keep gnats off a bed)",
+      "classicalLatin": "cōnōpēum (mosquito net)",
+      "oldFrench": "canope",
+      "middleEnglish": "canape, canapy"
+    },
+    "driftNotes": "Gnat-net > royal bed-curtain > the forest's green ceiling; overhead shelter grown botanical.",
+    "candidates": ["Conope", "Kanopi", "Canopia"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Arbor",
+    "semanticField": "Grow / Shelter",
+    "layers": {
+      "classicalLatin": "arbor (tree)",
+      "oldFrench": "erber (herb-garden)",
+      "middleEnglish": "erber, arbour"
+    },
+    "driftNotes": "Tree > shaded garden bower > the axle a world turns on ('arbor' of a machine); green memory in mechanical houses.",
+    "candidates": ["Arbora", "Erber", "Arbar"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Meadow",
+    "semanticField": "Grow / Field",
+    "layers": {
+      "protoGermanic": "*mēdwō (mown land)",
+      "oldEnglish": "mǣdwe",
+      "middleEnglish": "medwe"
+    },
+    "driftNotes": "Land kept for hay > wildflower meadows > soft open ground between hard things; pastoral calm with productive past.",
+    "candidates": ["Medwe", "Meadowa", "Maedwe"],
+    "tone": "Germanic",
+    "syllables": 2
+  }
+]

@@ -5,7 +5,7 @@ import {
   type DtcgDocument,
 } from "@etymalia/tokens";
 import type { NameProvenance, NameScores } from "@etymalia/name-engine";
-import type { DomainAvailability } from "@etymalia/availability";
+import type { DomainAvailability, NameAvailability } from "@etymalia/availability";
 import { createClient } from "@/lib/supabase/server";
 import { parseBriefRecord, type BrandBriefData } from "./brief";
 
@@ -25,6 +25,7 @@ export interface NameCandidateRecord {
   provenance: NameProvenance;
   scores: NameScores;
   availability: DomainAvailability | null;
+  availabilityReport: NameAvailability | null;
   isShortlisted: boolean;
 }
 
@@ -137,16 +138,20 @@ export async function loadBrand(
 
   const assets = await toBrandAssets(supabase, assetRows ?? []);
 
-  const candidates: NameCandidateRecord[] = (candidateRows ?? []).map((row) => ({
-    id: row.id as string,
-    term: row.term as string,
-    provenance: row.provenance as NameProvenance,
-    scores: row.scores as NameScores,
-    availability: hasAvailability(row.availability_json)
-      ? (row.availability_json as DomainAvailability)
-      : null,
-    isShortlisted: Boolean(row.is_shortlisted),
-  }));
+  const candidates: NameCandidateRecord[] = (candidateRows ?? []).map((row) => {
+    const availabilityJson = row.availability_json;
+    const single = hasAvailability(availabilityJson) ? (availabilityJson as DomainAvailability) : null;
+    const report = hasAvailabilityReport(availabilityJson) ? (availabilityJson as NameAvailability) : null;
+    return {
+      id: row.id as string,
+      term: row.term as string,
+      provenance: row.provenance as NameProvenance,
+      scores: row.scores as NameScores,
+      availability: single ?? (report?.domains?.[0] ?? null),
+      availabilityReport: report,
+      isShortlisted: Boolean(row.is_shortlisted),
+    };
+  });
 
   const workspaceRole = membership?.role;
   if (workspaceRole !== "owner" && workspaceRole !== "editor" && workspaceRole !== "viewer") return null;
@@ -229,4 +234,13 @@ function isAssetMeta(value: unknown): value is BrandAssetRecord["meta"] {
 
 function hasAvailability(value: unknown): boolean {
   return Boolean(value && typeof value === "object" && "status" in (value as object));
+}
+
+function hasAvailabilityReport(value: unknown): boolean {
+  return Boolean(
+    value
+    && typeof value === "object"
+    && Array.isArray((value as { domains?: unknown }).domains)
+    && ((value as { domains: unknown[] }).domains.length > 0),
+  );
 }

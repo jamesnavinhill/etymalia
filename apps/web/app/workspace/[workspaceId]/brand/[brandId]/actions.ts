@@ -3,9 +3,9 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { assertGenerationRequest, fullKitRequest } from "@etymalia/generation";
-import { generateNames as generateEtymariaNames, type NameStrategy } from "@etymalia/name-engine";
+import { generateNames as generateEtymariaNames, type NameProvenance, type NameStrategy } from "@etymalia/name-engine";
 import { generatePalette, paletteFromHexes, paletteToDtcg, type ColorRole } from "@etymalia/tokens";
-import { checkDomainAvailability, toDomain } from "@etymalia/availability";
+import { checkDomains } from "@etymalia/availability";
 import { attachRunnerRun, createQueuedGenerationJob, updateGenerationJob } from "@/lib/brand/jobs";
 import { briefKeywords, parseBriefForm, parseBriefRecord } from "@/lib/brand/brief";
 import { generationRunner } from "@/lib/generation/trigger-runner";
@@ -100,7 +100,15 @@ export async function generateNames(formData: FormData) {
   const target = ids(formData);
   const { supabase, brand } = await requireEditableBrand(target);
   const brief = parseBriefRecord(brand.brief);
-  const keywords = briefKeywords(brief);
+
+  // User-directed mode: the mix lab passes explicit root words. Keyword mode
+  // remains as the fallback for the brief-steered control panel.
+  const explicitWords = String(formData.get("rootWords") ?? "")
+    .split(/[\n,]/)
+    .map((value) => value.trim())
+    .filter(Boolean)
+    .slice(0, 8);
+  const keywords = explicitWords.length ? explicitWords : briefKeywords(brief);
   if (!keywords.length) done(target, "?error=brief-needed#names");
 
   const strategies = formData.getAll("strategies").filter(isNameStrategy);
@@ -112,21 +120,33 @@ export async function generateNames(formData: FormData) {
     tone: brief.tone,
     count,
     maxSyllables,
-    strategies,
-    preferredLayers,
+    strategies: explicitWords.length && !strategies.length ? undefined : strategies,
+    preferredLayers: explicitWords.length && !preferredLayers.length ? undefined : preferredLayers,
     exclusions: String(formData.get("exclusions") ?? "").split(/[\n,]/).map((value) => value.trim()).filter(Boolean).slice(0, 20),
   });
   if (!names.length) done(target, "?error=names#names");
 
-  const { error } = await supabase.rpc("replace_name_candidates", {
-    target_brand_id: target.brandId,
-    replacements: names.map((name) => ({
-      term: name.term.slice(0, 160),
-      provenance: name.provenance,
-      scores: name.scores,
-    })),
-  });
-  if (error) done(target, "?error=names#names");
+  // The board is persistent: additive generation only merges fresh slugs in so
+  // manually added names and their availability checks are never destroyed.
+  const { data: existingRows } = await supabase
+    .from("name_candidates")
+    .select("term")
+    .eq("brand_id", target.brandId);
+  const existingSlugs = new Set(
+    (existingRows ?? []).map((row) => String(row.term).toLowerCase().replace(/[^a-z0-9]/g, "")),
+  );
+  const fresh = names.filter((name) => !existingSlugs.has(name.slug));
+  if (fresh.length) {
+    const { error } = await supabase.from("name_candidates").insert(
+      fresh.map((name) => ({
+        brand_id: target.brandId,
+        term: name.term.slice(0, 160),
+        provenance: name.provenance,
+        scores: name.scores,
+      })),
+    );
+    if (error) done(target, "?error=names#names");
+  }
   done(target, "#names");
 }
 
@@ -135,12 +155,51 @@ export async function addManualName(formData: FormData) {
   const { supabase } = await requireEditableBrand(target);
   const term = String(formData.get("term") ?? "").replace(/\s+/g, " ").trim().slice(0, 160);
   if (!term) done(target, "?error=names#names");
+  const provenanceJson = String(formData.get("provenance") ?? "");
+  const scoresJson = String(formData.get("scores") ?? "");
+  let provenance: NameProvenance = { strategy: "curated", roots: [], note: "Added manually in the naming studio.", sources: [] };
+  let scores = { meaningFit: 0, pronounceability: 0, brevity: 0, distinctiveness: 0, composite: 0 };
+  if (provenanceJson) {
+    try {
+      const parsed = JSON.parse(provenanceJson) as { provenance?: NameProvenance; scores?: typeof scores };
+      if (parsed.provenance && Array.isArray(parsed.provenance.roots)) provenance = parsed.provenance;
+      if (parsed.scores && typeof parsed.scores.composite === "number") scores = parsed.scores;
+    } catch { /* fall back to the manual provenance above. */ }
+  } else if (scoresJson) {
+    try {
+      const parsed = JSON.parse(scoresJson) as typeof scores;
+      if (typeof parsed.composite === "number") scores = parsed;
+    } catch { /* keep zeroed defaults. */ }
+  }
   const { error } = await supabase.from("name_candidates").insert({
     brand_id: target.brandId,
     term,
-    provenance: { strategy: "curated", roots: [], note: "Added manually in the naming studio.", sources: [] },
-    scores: { meaningFit: 0, pronounceability: 0, brevity: 0, distinctiveness: 0, composite: 0 },
+    provenance,
+    scores,
   });
+  if (error) done(target, "?error=names#names");
+  done(target, "#names");
+}
+
+export async function removeName(formData: FormData) {
+  const target = ids(formData);
+  const { supabase } = await requireEditableBrand(target);
+  const candidate = await requireCandidate(supabase, target, String(formData.get("candidateId") ?? ""));
+  const { error } = await supabase.from("name_candidates").delete().eq("id", candidate.id).eq("brand_id", target.brandId);
+  if (error) done(target, "?error=names#names");
+  done(target, "#names");
+}
+
+export async function checkNameDomains(formData: FormData) {
+  const target = ids(formData);
+  const { supabase } = await requireEditableBrand(target);
+  const candidate = await requireCandidate(supabase, target, String(formData.get("candidateId") ?? ""));
+  const results = await checkDomains(candidate.term, ["com", "io", "co"]);
+  const { error } = await supabase
+    .from("name_candidates")
+    .update({ availability_json: { checkedAt: new Date().toISOString(), domains: results } })
+    .eq("id", candidate.id)
+    .eq("brand_id", target.brandId);
   if (error) done(target, "?error=names#names");
   done(target, "#names");
 }
@@ -268,17 +327,6 @@ export async function toggleShortlist(formData: FormData) {
   const shortlist = String(formData.get("shortlist") ?? "") === "true";
 
   const { error } = await supabase.from("name_candidates").update({ is_shortlisted: shortlist }).eq("id", candidate.id).eq("brand_id", target.brandId);
-  if (error) done(target, "?error=names#names");
-  done(target, "#names");
-}
-
-export async function checkDomain(formData: FormData) {
-  const target = ids(formData);
-  const { supabase } = await requireEditableBrand(target);
-  const candidate = await requireCandidate(supabase, target, String(formData.get("candidateId") ?? ""));
-  const availability = await checkDomainAvailability(toDomain(candidate.term, "com"));
-
-  const { error } = await supabase.from("name_candidates").update({ availability_json: availability }).eq("id", candidate.id).eq("brand_id", target.brandId);
   if (error) done(target, "?error=names#names");
   done(target, "#names");
 }

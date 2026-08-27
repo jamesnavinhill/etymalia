@@ -108,11 +108,13 @@ Supabase Auth leaked-password protection is a paid option for this project and i
    - [x] Add forward-only storage for named directions and immutable snapshots. Migration `20260716100000_add_brand_directions.sql` stores the brief, token document/version, and candidate board; it was applied and verified remotely on 2026-07-16.
    - [x] Let editors rename, duplicate, archive, and restore directions without overwriting another direction. Source controls are implemented; deployed-workspace verification remains pending.
    - [x] Let editors save and reopen a direction, restoring its captured brief, token system, and name board atomically through an authorization-checked RPC. The schema/function are remotely verified; deployed-workstation verification remains pending.
-   - [x] Show saved directions and the active direction in the workspace.
-2. **Naming studio**
-   - [x] Add naming controls for eras/language layers, strategies, syllable preference, and result count. The source-backed implementation constrains selected language layers, filters construction strategy, and retains generated provenance.
-   - [ ] Add root-combination and exclusion controls, named lists, and comparison views.
    - [x] Support manually authored candidates alongside selected names and availability checks while retaining provenance for generated names. Named lists and comparison remain pending.
+
+2. **Naming studio**
+   - [x] Rebuild the naming flow around a user-directed studio. Editors start from the full 270-word etymology table, pick up to six base words, see every language-era form with meaning and drift notes, splice openings/endings into hybrids with a live preview, review ranked portmanteau/compound/suffix suggestions, and add base words, curated marks, or splices to an additive board. Availability checks return `.com`, `.io`, and `.co` RDAP statuses. The board replaces the old wipe-on-generate RPC with additive merging.
+   - [x] Expand the curated corpus from 270 to 510 base words across four themed batches (`docs/references/etymology/batches/{essence,virtue,harvest,lux}.json`), subagent-authored and validated with zero dupes against the original 270, no cross-batch overlap, and 14-era layer parity (~4 populated era forms per entry on average). Merged into `packages/name-engine/src/corpus.json` via `packages/name-engine/scripts/merge-batches.mjs`.
+   - [x] Studio primo touches: per-brand session persistence (picks + mixing eras survive navigation — `sessionStorage`), a deterministic "Surprise me" pair that instantly opens etymology tables and the mix lab, and board-aware dedupe so suggested hybrids never repeat names already on the board.
+   - [ ] Root-combination and exclusion controls, named lists, and comparison views (still pending).
 3. **Editable design system**
    - [x] Add direct semantic-token editing and palette exploration around user-selected color anchors.
    - [x] Run contrast feedback on every saved palette and retain incremented token versions. Direction snapshots/restoration remain pending.

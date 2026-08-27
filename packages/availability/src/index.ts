@@ -15,6 +15,12 @@ export interface DomainAvailability {
   registeredOn?: string;
 }
 
+/** Persisted per-candidate domain report, covering several public TLDs. */
+export interface NameAvailability {
+  checkedAt: string;
+  domains: DomainAvailability[];
+}
+
 export interface AvailabilityOptions {
   fetch?: typeof fetch;
   timeoutMs?: number;

@@ -1,0 +1,847 @@
+[
+  {
+    "word": "Glee",
+    "semanticField": "Mirth / Musical Joy",
+    "layers": {
+      "protoGermanic": "*gleują (jest, music)",
+      "oldEnglish": "glēo (music, merriment)",
+      "oldNorse": "glý (joy)",
+      "middleEnglish": "gle (music, delight)"
+    },
+    "driftNotes": "music and jest > shared delight; a compact, gleaming joy-word with an instant smile for playful brands.",
+    "candidates": ["GLEO", "GLIMA", "GLYNOR"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Mirth",
+    "semanticField": "Joy / Merry Delight",
+    "layers": {
+      "pie": "*mreǵʰu- (short, brief)",
+      "protoGermanic": "*murgjaz (short > pleasant)",
+      "oldEnglish": "myrgþ (pleasure, joy)",
+      "middleEnglish": "merthe"
+    },
+    "driftNotes": "brevity as pleasure: a short time well spent > gladness; warm, folksy, and immediately legible.",
+    "candidates": ["MYRG", "MIRTHA", "MERTHA"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Revel",
+    "semanticField": "Festivity / Boisterous Joy",
+    "layers": {
+      "classicalLatin": "rebellāre (to revolt)",
+      "oldFrench": "reveler (to riot, make merry)",
+      "middleEnglish": "revel (boisterous festivity)"
+    },
+    "driftNotes": "rowdy rebellion > festive abandon; carries licensed mischief and celebration, great for audacious brands.",
+    "candidates": ["REVELLA", "VELRA", "REVARN"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Frolic",
+    "semanticField": "Play / Lighthearted Joy",
+    "layers": {
+      "protoGermanic": "*frawaz (glad, joyful)",
+      "classicalLatin": "gestīre (to exult)",
+      "ancientGreek": "hilarós (ἱλαρός, cheerful)",
+      "sanskrit": "ullāsa (उल्लास, radiating joy)"
+    },
+    "driftNotes": "borrowed from Dutch vrolijk (glad-like); movement skipped into the meaning > gamboling joy, endearing and kinetic.",
+    "candidates": ["FROLLIA", "VROLYK", "FROLLE"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Cheer",
+    "semanticField": "Goodwill / Warm Joy",
+    "layers": {
+      "pie": "*ḱerh₂- (head, horn)",
+      "ancientGreek": "kára (κάρα, head)",
+      "vulgarLatin": "cara (face)",
+      "oldFrench": "chiere (face, expression)",
+      "middleEnglish": "chere (face, mood)"
+    },
+    "driftNotes": "face > look > mood > 'be of good —'; one of English's warmest hospitality words.",
+    "candidates": ["CHIERA", "CHEERA", "KARIA"],
+    "tone": "French",
+    "syllables": 1
+  },
+  {
+    "word": "Jollity",
+    "semanticField": "Festivity / Convivial Mirth",
+    "layers": {
+      "protoGermanic": "*jehwlą (Yule feast)",
+      "oldNorse": "jól (Yule)",
+      "oldFrench": "jolif (festive, pretty)",
+      "middleEnglish": "jolite (mirth)"
+    },
+    "driftNotes": "Yule-fest cheer rode into French jolif 'merry' and back again; double-holiday DNA, convivial and wintry.",
+    "candidates": ["JOLVA", "JOLFIN", "JULET"],
+    "tone": "French",
+    "syllables": 3
+  },
+  {
+    "word": "Rhapsody",
+    "semanticField": "Ecstasy / Rapturous Flow",
+    "layers": {
+      "pie": "*werp- (to turn, stitch)",
+      "ancientGreek": "rhapsōidía (ῥαψῳδία, stitched song)",
+      "classicalLatin": "rhapsōdia",
+      "sanskrit": "saṃgīta (संगीत, sung-together music)"
+    },
+    "driftNotes": "stitcher of songs > epic reciter > ecstatic outpouring; artistic passion with a built-in crescendo, musical and grand.",
+    "candidates": ["RHAPSA", "RAPSODA", "RHAPTEA"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Comely",
+    "semanticField": "Beauty / Fair Form",
+    "layers": {
+      "protoGermanic": "*kūmalīkaz (splendid)",
+      "oldEnglish": "cȳmlīċ (beautiful, splendid)",
+      "middleEnglish": "cumli (fair, handsome)"
+    },
+    "driftNotes": "radiant-splendid > quietly attractive; modest, homespun beauty with approachable warmth.",
+    "candidates": ["KUMA", "CYMLA", "COMLIA"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Winsome",
+    "semanticField": "Charm / Sweet Appeal",
+    "layers": {
+      "pie": "*wenh₁- (to desire, love)",
+      "protoGermanic": "*wunjō (joy)",
+      "oldEnglish": "wynsum (joyous, lovely)",
+      "middleEnglish": "winsum"
+    },
+    "driftNotes": "joy-made > charming; shares its root with Venus and win — an affectionate Old English darling of a word.",
+    "candidates": ["WYNSUM", "WYNEVA", "SOMWYN"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Gracile",
+    "semanticField": "Slenderness / Fine Form",
+    "layers": {
+      "classicalLatin": "gracilis (slender, fine)",
+      "ancientGreek": "leptós (λεπτός, fine, delicate)",
+      "sanskrit": "sūkṣma (सूक्ष्म, fine, subtle)"
+    },
+    "driftNotes": "slim, spare > refined economy; a connoisseur's word for lean elegance — precise and technical.",
+    "candidates": ["GRACILIA", "LEPTIA", "GRAXIS"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Lissome",
+    "semanticField": "Suppleness / Lithe Grace",
+    "layers": {
+      "pie": "*lent- (flexible)",
+      "protoGermanic": "*linþaz (soft, mild)",
+      "oldEnglish": "līþe (gentle, supple)",
+      "middleEnglish": "lithesum"
+    },
+    "driftNotes": "soft-supple > 'lithesome' clipped to lissome; fluid, dancing grace — great for motion or fashion brands.",
+    "candidates": ["LYTH", "LINTHA", "LISSIA"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Svelte",
+    "semanticField": "Sleekness / Slim Grace",
+    "layers": {
+      "pie": "*wel- (to strike, tear)",
+      "classicalLatin": "ēvellere (to pluck out)",
+      "ancientGreek": "ischnós (ἰσχνός, lean)"
+    },
+    "driftNotes": "plucked clean from the stem > sleek; via Italian svelto and French svelte — couture-slim with a sharp bite.",
+    "candidates": ["SVELTA", "VELTRA", "SVELLIA"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Symmetry",
+    "semanticField": "Balance / Ordered Beauty",
+    "layers": {
+      "pie": "*meh₁- (to measure)",
+      "ancientGreek": "symmetría (συμμετρία, due proportion)",
+      "classicalLatin": "symmetria"
+    },
+    "driftNotes": "measuring together > balanced beauty; the design-nerd's beauty principle, trustworthy for tools and frameworks.",
+    "candidates": ["SYMETRA", "METRIA", "SYMA"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Allure",
+    "semanticField": "Enchantment / Magnetic Charm",
+    "layers": {
+      "pie": "*lo- (to entice, call)",
+      "protoGermanic": "*laþōną (to invite, summon)",
+      "oldEnglish": "laþian (to invite)",
+      "oldFrench": "aleurer (to attract, bait with a lure)",
+      "middleEnglish": "aluren (to entice)"
+    },
+    "driftNotes": "the falconer's lure > irresistible attraction; seductive polish without the divine halo — magnetic for beauty and luxury brands.",
+    "candidates": ["ALURA", "LURELLE", "ALLURA"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Bonny",
+    "semanticField": "Attractiveness / Cheerful Beauty",
+    "layers": {
+      "pie": "*deu- (to show favor)",
+      "classicalLatin": "bonus (good; earlier duenos)",
+      "oldFrench": "bon (good)",
+      "middleEnglish": "bonie (fine, pretty)"
+    },
+    "driftNotes": "plain 'good' > good-looking (Scots bonnie); cheerful rustic beauty with a lucky, bon-vivant ring.",
+    "candidates": ["BONIA", "BONNELLE", "DUENA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Robust",
+    "semanticField": "Strength / Oak-Hard Vigor",
+    "layers": {
+      "pie": "*h₁rewdʰ- (red)",
+      "classicalLatin": "rōbur (oak, strength)",
+      "ancientGreek": "rhṓmē (ῥώμη, bodily strength)",
+      "sanskrit": "bala (बल, strength)"
+    },
+    "driftNotes": "red like oak heartwood > oak > strength itself (rōbustus = oaken); enterprise-credible heft, earthy and dependable.",
+    "candidates": ["ROBURA", "ROBUSTA", "ROVIX"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Stalwart",
+    "semanticField": "Steadfastness / Firm Valor",
+    "layers": {
+      "pie": "*steh₂- (to stand)",
+      "protoGermanic": "*stadiz (place, stead)",
+      "oldEnglish": "stǣlwierþe (stead-worthy)",
+      "middleEnglish": "stalworth"
+    },
+    "driftNotes": "'worthy of a stead' > unshakably loyal; Scots clipped it to stalwart — dependable, quietly heroic.",
+    "candidates": ["STALWYN", "STELWORT", "STALVA"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Brawn",
+    "semanticField": "Muscle / Physical Might",
+    "layers": {
+      "protoGermanic": "*brēdō (roast meat > flesh)",
+      "oldEnglish": "brǣd (flesh, meat)",
+      "oldFrench": "braon (muscle, fleshy part)",
+      "middleEnglish": "brawne (muscle)"
+    },
+    "driftNotes": "roast-meat muscle > sheer physical strength; unabashed horsepower for fitness and hardware brands.",
+    "candidates": ["BRAWNA", "BRAVON", "BREDO"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Sinew",
+    "semanticField": "Tendon / Binding Strength",
+    "layers": {
+      "pie": "*sneh₁- (to twist, bind)",
+      "protoGermanic": "*senawō (tendon)",
+      "oldEnglish": "seonu (sinew)",
+      "oldNorse": "sin (tendon)",
+      "middleEnglish": "sinewe",
+      "sanskrit": "snāvan (स्नावन्, sinew)"
+    },
+    "driftNotes": "the binding cord of muscle > 'sinews of war' (vital resources); tensile, connective power — quiet strength.",
+    "candidates": ["SENWA", "SNAVA", "SINUVA"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Doughty",
+    "semanticField": "Valor / Able Might",
+    "layers": {
+      "pie": "*dʰewgʰ- (to be fit, useful)",
+      "protoGermanic": "*duganą (to avail, be able)",
+      "oldEnglish": "dohtiġ (valiant, mighty)",
+      "oldNorse": "dygð (valor, virtue)",
+      "middleEnglish": "doughti"
+    },
+    "driftNotes": "'able to avail' > fearlessly capable; cousin of German tüchtig — endearingly old-school valor with real substance.",
+    "candidates": ["DUGAN", "DYGTH", "DOVA"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Hale",
+    "semanticField": "Healthiness / Sound Vigor",
+    "layers": {
+      "pie": "*kailo- (whole, uninjured)",
+      "protoGermanic": "*hailaz (whole, healthy)",
+      "oldEnglish": "hāl (sound, healthy)",
+      "oldNorse": "heill (whole; hail!)",
+      "middleEnglish": "hale"
+    },
+    "driftNotes": "whole and sound; shares its root with heal, health, and the Norse toast ves heill — wellness-native.",
+    "candidates": ["HAILA", "HEYLA", "HALEN"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Stout",
+    "semanticField": "Sturdiness / Bold Strength",
+    "layers": {
+      "protoGermanic": "*stoltaz (proud)",
+      "oldFrench": "estout (proud, fierce)",
+      "middleEnglish": "stout (proud, brave)",
+      "classicalLatin": "fortis (strong)"
+    },
+    "driftNotes": "proud-fierce > brave > solidly built (and a dark beer); compact, dependable weight with swagger.",
+    "candidates": ["STOLTA", "STUTA", "ESTOW"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Prowess",
+    "semanticField": "Skill / Gallant Excellence",
+    "layers": {
+      "pie": "*pro- (forward)",
+      "classicalLatin": "prōdesse (to be useful, profit)",
+      "oldFrench": "proece (valor, excellence)",
+      "middleEnglish": "prowesse"
+    },
+    "driftNotes": "'being of use' > gallant superiority on the field; earned, demonstrable excellence rather than raw power.",
+    "candidates": ["PROESA", "PROVELLA", "PRUVA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Haven",
+    "semanticField": "Safety / Shelter",
+    "layers": {
+      "pie": "*kap- (to grasp, hold)",
+      "protoGermanic": "*hafnō (harbor)",
+      "oldEnglish": "hæfen",
+      "oldNorse": "höfn",
+      "middleEnglish": "haven"
+    },
+    "driftNotes": "harbor > refuge > safe home; maritime shelter image, great for trust-and-comfort brands.",
+    "candidates": ["HAVNA", "HAFNIA", "HAVELA"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Repose",
+    "semanticField": "Rest / Calm Stillness",
+    "layers": {
+      "ancientGreek": "paûsis (παῦσις, cessation)",
+      "classicalLatin": "pausa (rest)",
+      "vulgarLatin": "*repausāre (to rest again)",
+      "oldFrench": "reposer",
+      "middleEnglish": "repose"
+    },
+    "driftNotes": "to pause again > composed stillness; poetic, dignified rest — sleep, wellness, or legacy brands.",
+    "candidates": ["PAUSA", "REPOSA", "PAUSIA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Solace",
+    "semanticField": "Comfort / Consolation",
+    "layers": {
+      "pie": "*selh₂- (to gladden, favor)",
+      "classicalLatin": "sōlācium (comfort)",
+      "oldFrench": "solas (comfort)",
+      "middleEnglish": "solace"
+    },
+    "driftNotes": "consoled gladness > comfort in grief; emotionally intelligent and gentle — care, wellness, and support brands.",
+    "candidates": ["SOLACIA", "SOLENZA", "SOLIA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Hearth",
+    "semanticField": "Home / Warm Center",
+    "layers": {
+      "protoGermanic": "*herþō (hearth)",
+      "oldEnglish": "heorþ",
+      "oldNorse": "hyrr (fire)",
+      "middleEnglish": "herth",
+      "classicalLatin": "focus (hearth)"
+    },
+    "driftNotes": "the house-fire center > home itself (Latin focus made it literal); warm, gathering-point imagery.",
+    "candidates": ["HEARTHA", "HEORTH", "FOCINA"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Leisure",
+    "semanticField": "Rest / Unhurried Time",
+    "layers": {
+      "classicalLatin": "licēre (to be permitted)",
+      "oldFrench": "leisir (permission, free time)",
+      "middleEnglish": "leisir",
+      "ancientGreek": "scholḗ (σχολή, leisure)"
+    },
+    "driftNotes": "what one is permitted to do > free time; note scholē 'leisure' became 'school' — aspirational ease.",
+    "candidates": ["LEZIRA", "LICERA", "SKOLEA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Balm",
+    "semanticField": "Soothing / Healing Comfort",
+    "layers": {
+      "hebrew": "bósem (בֹּשֶׂם, spice, fragrance)",
+      "ancientGreek": "bálsamon (βάλσαμον, balsam)",
+      "classicalLatin": "balsamum",
+      "oldFrench": "basme",
+      "middleEnglish": "balme"
+    },
+    "driftNotes": "precious resin > any soothing remedy ('balm of Gilead'); sensory, apothecary calm for beauty and care.",
+    "candidates": ["BALSEMA", "BALMORA", "BOSENA"],
+    "tone": "Greek",
+    "syllables": 1
+  },
+  {
+    "word": "Ease",
+    "semanticField": "Comfort / Effortless Calm",
+    "layers": {
+      "vulgarLatin": "*adiacēns (lying near; posited)",
+      "oldFrench": "aise (comfort, convenience)",
+      "middleEnglish": "ese"
+    },
+    "driftNotes": "elbow-room of a nearby place > unstrained comfort (origin debated); minimal, frictionless-UX energy.",
+    "candidates": ["AISA", "EZELLE", "ESIA"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Refuge",
+    "semanticField": "Sanctuary / Safe Retreat",
+    "layers": {
+      "pie": "*bʰewg- (to flee)",
+      "classicalLatin": "refugium (place to flee back)",
+      "oldFrench": "refuge",
+      "middleEnglish": "refuge",
+      "sanskrit": "śaraṇa (शरण, shelter, refuge)"
+    },
+    "driftNotes": "a place to flee back to > sanctuary; protective and grounded — echoes the refuga-vow of śaraṇa.",
+    "candidates": ["REFUGIA", "FUGIRA", "SARANA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Sage",
+    "semanticField": "Wisdom / Discernment",
+    "layers": {
+      "pie": "*sep- (to taste, perceive)",
+      "classicalLatin": "sapere (to taste; be wise)",
+      "vulgarLatin": "*sapius (wise)",
+      "oldFrench": "sage",
+      "middleEnglish": "sage"
+    },
+    "driftNotes": "discerning taste > wisdom; doubles as the cleansing herb — knowledge with flavor, perfect for this corpus.",
+    "candidates": ["SAPERE", "SAPIA", "SAGEA"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Myth",
+    "semanticField": "Story / Sacred Narrative",
+    "layers": {
+      "ancientGreek": "mȳthos (μῦθος, word, tale)",
+      "classicalLatin": "mȳthus",
+      "sanskrit": "kathā (कथा, story, tale)"
+    },
+    "driftNotes": "spoken thing > sacred story; the modern sense of founding narrative is exactly what brands build.",
+    "candidates": ["MYTHOS", "MYTHIA", "MYTEL"],
+    "tone": "Greek",
+    "syllables": 1
+  },
+  {
+    "word": "Fable",
+    "semanticField": "Storytelling / Moral Tale",
+    "layers": {
+      "pie": "*bʰeh₂- (to speak)",
+      "classicalLatin": "fābula (story, tale; from fārī, to speak)",
+      "oldFrench": "fable",
+      "middleEnglish": "fable",
+      "ancientGreek": "phēmē (φήμη, speech, report)",
+      "sanskrit": "bhāṣā (भाषा, speech, language)"
+    },
+    "driftNotes": "the spoken thing > a tale with a moral woven in; story-first branding with timeless, fireside warmth.",
+    "candidates": ["FABULA", "FABELLE", "BHASA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Gnosis",
+    "semanticField": "Knowing / Esoteric Insight",
+    "layers": {
+      "pie": "*ǵneh₃- (to know)",
+      "ancientGreek": "gnōsis (γνῶσις, knowledge)",
+      "classicalLatin": "(co)gnōscere (to know; cousin)",
+      "sanskrit": "jñāna (ज्ञान, knowledge)"
+    },
+    "driftNotes": "direct inner knowing — the mystical branch of the *ǵneh₃- family that also gave English 'know'; esoteric-tech aura.",
+    "candidates": ["GNOSA", "GNOSIA", "NYASA"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Sapient",
+    "semanticField": "Discernment / Deep Wisdom",
+    "layers": {
+      "pie": "*sep- (to taste, perceive)",
+      "classicalLatin": "sapiēns (discerning, wise)",
+      "sanskrit": "prajñā (प्रज्ञा, deep discernment)"
+    },
+    "driftNotes": "'one who has taste' > fully aware mind; homo sapiens lends evolutionary confidence — AI and insight brands.",
+    "candidates": ["SAPIENZA", "PRAGYA", "SAPIRA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Acuity",
+    "semanticField": "Sharpness / Keen Perception",
+    "layers": {
+      "pie": "*h₂eḱ- (sharp, pointed)",
+      "classicalLatin": "acuitās (sharpness; from acus, needle)",
+      "vulgarLatin": "*acuitātem",
+      "middleEnglish": "acuite",
+      "ancientGreek": "akís (ἀκίς, point, barb)"
+    },
+    "driftNotes": "needle-point > mental sharpness; precision and edge for intelligence, analytics, and craft brands.",
+    "candidates": ["ACUTIA", "AKELLE", "ACUITA"],
+    "tone": "Latin",
+    "syllables": 4
+  },
+  {
+    "word": "Pundit",
+    "semanticField": "Expertise / Learned Authority",
+    "layers": {
+      "sanskrit": "paṇḍita (पण्डित, learned man)",
+      "classicalLatin": "doctus (learned)",
+      "ancientGreek": "sophistḗs (σοφιστής, master of a craft)"
+    },
+    "driftNotes": "court scholar > go-to authority (via colonial-era Hindi); self-assured expertise with a wink.",
+    "candidates": ["PUNDIA", "PANDITA", "PUNDEL"],
+    "tone": "Sanskrit",
+    "syllables": 2
+  },
+  {
+    "word": "Legendarium",
+    "semanticField": "Legend / Collected Tales",
+    "layers": {
+      "pie": "*leǵ- (to gather, read)",
+      "classicalLatin": "legenda (things to be read)",
+      "vulgarLatin": "legendarium (collection of legends)"
+    },
+    "driftNotes": "a gathered book of saints' lives > a whole mythic archive (Tolkien's term); epic, archive-grade storytelling.",
+    "candidates": ["LEGENDRA", "LEGERA", "LEGDAN"],
+    "tone": "Latin",
+    "syllables": 5
+  },
+  {
+    "word": "Utility",
+    "semanticField": "Usefulness / Practical Value",
+    "layers": {
+      "classicalLatin": "ūtilis (useful)",
+      "oldFrench": "utilité",
+      "middleEnglish": "utilite",
+      "ancientGreek": "chrḗsimon (χρήσιμον, useful)"
+    },
+    "driftNotes": "plain usefulness made upright; honest, dependable, systems-brand credibility.",
+    "candidates": ["UTILIA", "UTELIA", "UTILLA"],
+    "tone": "Latin",
+    "syllables": 4
+  },
+  {
+    "word": "Avail",
+    "semanticField": "Efficacy / Worth in Use",
+    "layers": {
+      "pie": "*wal- (to be strong)",
+      "classicalLatin": "valēre (to be strong, be worth)",
+      "oldFrench": "vail (be of worth; cf. valoir)",
+      "middleEnglish": "availen"
+    },
+    "driftNotes": "to be strong on behalf of > to be of use; 'to no —' hides the valor-root (value, valiant) — serviceable confidence.",
+    "candidates": ["AVELLA", "VALEON", "AVAILA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Profit",
+    "semanticField": "Gain / Earned Benefit",
+    "layers": {
+      "pie": "*dʰeh₁- (to put, make)",
+      "classicalLatin": "prōfectus (advance, gain)",
+      "oldFrench": "profit",
+      "middleEnglish": "profit"
+    },
+    "driftNotes": "prōficere 'to make forward' > progress > gain; zero-pretense ROI language for finance and tooling.",
+    "candidates": ["PROFEX", "PROFECTA", "PROFERA"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Advantage",
+    "semanticField": "Edge / Superior Position",
+    "layers": {
+      "pie": "*h₂ent- (front, face)",
+      "classicalLatin": "ab ante (before, in front)",
+      "oldFrench": "avantage",
+      "middleEnglish": "avantage"
+    },
+    "driftNotes": "being positioned ahead > the upper hand; competitive clarity with aristocratic French polish.",
+    "candidates": ["AVANTIA", "ADALTA", "VANTOR"],
+    "tone": "French",
+    "syllables": 3
+  },
+  {
+    "word": "Lever",
+    "semanticField": "Force / Mechanical Advantage",
+    "layers": {
+      "pie": "*h₁legʷʰ- (light in weight)",
+      "classicalLatin": "levāre (to lift)",
+      "oldFrench": "lever (to raise)",
+      "middleEnglish": "levour"
+    },
+    "driftNotes": "the 'lightener' that lifts the heavy > force-multiplier; the SaaS-favorite metaphor, mechanically true to its root.",
+    "candidates": ["LEVARA", "LEVOR", "LEVRA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Yield",
+    "semanticField": "Output / Fruitful Return",
+    "layers": {
+      "pie": "*gʰeldʰ- (to pay, repay)",
+      "protoGermanic": "*geldaną (to pay)",
+      "oldEnglish": "ġieldan (to pay, give)",
+      "oldNorse": "gjalda (to pay; cf. Geld)",
+      "middleEnglish": "yelden"
+    },
+    "driftNotes": "to pay tribute > to render what is due > harvest output; finance-credible and quietly agricultural.",
+    "candidates": ["GELDA", "YILDA", "GELDRA"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Worth",
+    "semanticField": "Value / Deserving Merit",
+    "layers": {
+      "pie": "*wert- (to turn, become)",
+      "protoGermanic": "*werþaz (worthy)",
+      "oldEnglish": "weorþ (value, worthy)",
+      "oldNorse": "verðr",
+      "middleEnglish": "wurthe"
+    },
+    "driftNotes": "what it turns out to be > value; plain-spoken dignity for trust, pricing, and craft brands.",
+    "candidates": ["WERTHA", "WERDA", "WORTHIA"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Marvel",
+    "semanticField": "Wonder / Astonishing Sight",
+    "layers": {
+      "pie": "*smey- (to smile, be astonished)",
+      "classicalLatin": "mīrābilia (wonders)",
+      "vulgarLatin": "*mīrabīlia",
+      "oldFrench": "merveille",
+      "middleEnglish": "merveile"
+    },
+    "driftNotes": "wonder rooted in a smile (same root as Sanskrit smérate 'smiles' and English smile); wide-eyed delight, refreshingly sincere.",
+    "candidates": ["MERVEIA", "MIRABILA", "MEVRA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Portent",
+    "semanticField": "Omen / Wondrous Sign",
+    "layers": {
+      "pie": "*ten- (to stretch)",
+      "classicalLatin": "portentum (omen, marvel)",
+      "ancientGreek": "téras (τέρας, wonder-omen)"
+    },
+    "driftNotes": "a sign stretched forward in time > omen; big, cinematic, slightly ominous — futurism and security vibes.",
+    "candidates": ["PORTENA", "TERAZA", "PORTEL"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Prodigy",
+    "semanticField": "Wonder / Marvelous Being",
+    "layers": {
+      "classicalLatin": "prōdigium (omen, wonder; cf. adagium, saying)",
+      "oldFrench": "prodige",
+      "ancientGreek": "thaûma (θαῦμα, wonder)"
+    },
+    "driftNotes": "public omen > extraordinary person or thing; genius-coded, youthful, and a little unreal.",
+    "candidates": ["THAUMA", "PRODIGIA", "ADAGIA"],
+    "tone": "Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Sublime",
+    "semanticField": "Transcendence / Exalted Grandeur",
+    "layers": {
+      "pie": "*lewbʰ- (to peel, cut off)",
+      "classicalLatin": "sublīmis (uplifted, lofty; sub + līmen, lintel)",
+      "oldFrench": "sublime",
+      "middleEnglish": "sublime"
+    },
+    "driftNotes": "raised to the lintel > exalted loftiness; the aesthetic of grandeur without fear — premium, elevated, awe-adjacent.",
+    "candidates": ["SUBLIMA", "LIMENO", "SUBLYM"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Phenomenon",
+    "semanticField": "Appearance / Extraordinary Event",
+    "layers": {
+      "pie": "*bʰeh₂- (to shine, appear)",
+      "ancientGreek": "phainómenon (φαινόμενον, that which appears)",
+      "classicalLatin": "phaenomenon"
+    },
+    "driftNotes": "that which shines into appearance > extraordinary occurrence; scientific dazzle, show-stopping claims.",
+    "candidates": ["PHAINA", "PHENON", "PHAENOS"],
+    "tone": "Greek",
+    "syllables": 4
+  },
+  {
+    "word": "Astound",
+    "semanticField": "Amazement / Thunderstruck Wonder",
+    "layers": {
+      "pie": "*(s)tenh₂- (to thunder)",
+      "classicalLatin": "tonāre (to thunder)",
+      "vulgarLatin": "*extonāre (to stun)",
+      "oldFrench": "estoner (to amaze)",
+      "middleEnglish": "astouned"
+    },
+    "driftNotes": "thunderstruck > amazed; the word literally contains the storm — big-impact, jaw-drop energy.",
+    "candidates": ["EXTONA", "ASTONA", "TONUA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Zest",
+    "semanticField": "Peel / Lively Piquancy",
+    "layers": {
+      "oldFrench": "zeste (citrus peel; ultimate origin uncertain)",
+      "ancientGreek": "geûsis (γεῦσις, taste)",
+      "sanskrit": "rasa (रस, juice, essence)"
+    },
+    "driftNotes": "bitter peel scraped for brightness > enthusiastic appetite ('a zest for life'); punchy one-syllable spark.",
+    "candidates": ["ZESTRA", "ZESTEL", "ZENTHA"],
+    "tone": "French",
+    "syllables": 1
+  },
+  {
+    "word": "Spice",
+    "semanticField": "Aromatics / Exciting Variety",
+    "layers": {
+      "pie": "*speḱ- (to see, regard)",
+      "classicalLatin": "speciēs (kind; goods, wares)",
+      "vulgarLatin": "speciēs (aromatic goods)",
+      "oldFrench": "espice",
+      "middleEnglish": "spice"
+    },
+    "driftNotes": "'sorts of goods' > aromatics once worth their weight in silver; trade-wind adventure in a word.",
+    "candidates": ["ESPICA", "SPICIA", "SPECTIA"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Flavor",
+    "semanticField": "Taste / Characterful Aroma",
+    "layers": {
+      "pie": "*bʰleh₁- (to blow)",
+      "classicalLatin": "flāre (to blow)",
+      "vulgarLatin": "*flātor (odor, that which wafts)",
+      "oldFrench": "flaor (fragrance)",
+      "middleEnglish": "flavour"
+    },
+    "driftNotes": "scent carried on the breath > taste-plus-aroma > distinctive character; delightfully sensory.",
+    "candidates": ["FLAOR", "FLEVOR", "FLAUREL"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Savor",
+    "semanticField": "Taste / Appreciated Flavor",
+    "layers": {
+      "pie": "*sep- (to taste, perceive)",
+      "classicalLatin": "sapōr (taste)",
+      "oldFrench": "savour",
+      "middleEnglish": "savur"
+    },
+    "driftNotes": "to taste knowingly > to relish fully; shares sapere with sage and sapient — flavor as wisdom.",
+    "candidates": ["SAPORA", "SAVORIA", "SAPORIS"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Piquant",
+    "semanticField": "Sharpness / Appetizing Bite",
+    "layers": {
+      "oldFrench": "piquer (to prick, sting)",
+      "vulgarLatin": "*piccāre (to prick; posited)",
+      "classicalLatin": "pungere (to prick; sense-parallel)"
+    },
+    "driftNotes": "stinging like a thorn > appetizingly sharp; a flirtatious little bite — chic and edible.",
+    "candidates": ["PIQARA", "PIKVIA", "PIQATRA"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Tang",
+    "semanticField": "Bite / Sharp Flavor",
+    "layers": {
+      "pie": "*denḱ- (to bite)",
+      "protoGermanic": "*tangō (point, tongs)",
+      "oldEnglish": "tange (pincers)",
+      "oldNorse": "tangi (pointed tongue)",
+      "middleEnglish": "tange (sharp taste)"
+    },
+    "driftNotes": "the bite of a blade's point > biting flavor; short, zippy, and unmistakably sharp.",
+    "candidates": ["TANGIA", "TANGRA", "TENKA"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Relish",
+    "semanticField": "Zest / Lingering Taste",
+    "layers": {
+      "classicalLatin": "relaxāre (to loosen, let go)",
+      "oldFrench": "reles (that which remains; aftertaste)",
+      "middleEnglish": "reles (taste, liking)"
+    },
+    "driftNotes": "the taste left behind > eager enjoyment; two delicious senses (condiment + delight) in one word.",
+    "candidates": ["RELESA", "RELICIA", "RELISHEN"],
+    "tone": "French",
+    "syllables": 2
+  },
+  {
+    "word": "Gusto",
+    "semanticField": "Appetite / Hearty Enjoyment",
+    "layers": {
+      "pie": "*ǵews- (to taste, choose)",
+      "classicalLatin": "gustus (tasting)",
+      "ancientGreek": "geûma (γεῦμα, a taste)"
+    },
+    "driftNotes": "tasting with appetite > doing anything 'with gusto'; same root as 'choose' — appetite as preference, big-hearted.",
+    "candidates": ["GUSTA", "GUSTEN", "GUSTELLA"],
+    "tone": "Latin",
+    "syllables": 2
+  }
+]

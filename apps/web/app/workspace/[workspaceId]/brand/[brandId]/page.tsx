@@ -6,24 +6,27 @@ import { AuthButton } from "@/components/auth-button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { createClient } from "@/lib/supabase/server";
 import { loadBrand, type NameCandidateRecord } from "@/lib/brand/load";
+import { allWordSummaries } from "@/lib/brand/studio-server";
 import {
-  checkDomain,
   addManualName,
   activateDirection,
   archiveDirection,
-  duplicateDirection,
-  renameDirection,
+  checkNameDomains,
   deleteReference,
-  uploadReference,
+  duplicateDirection,
   generateBrandPalette,
   generateSelection,
-  generateNames,
-  savePalette,
-  saveDirection,
+  removeName,
+  renameDirection,
   saveBrief,
+  saveDirection,
+  savePalette,
   toggleShortlist,
+  uploadReference,
   useName,
 } from "./actions";
+import { fetchStudioPieces, fetchStudioSuggestions, fetchStudioTables } from "./studio-actions";
+import { NameStudio, type StudioBoardCandidate } from "./studio";
 
 export const dynamic = "force-dynamic";
 
@@ -71,6 +74,18 @@ export default async function BrandPage({
   const contrast = tokens ? readContrast(tokens) : [];
   const logoAssets = assets.filter((asset) => asset.kind === "logo");
   const visibleAssets = assets.filter((asset) => asset.kind !== "media");
+
+  // Only the lightweight word catalogue ships with the page; etymology tables,
+  // blend pieces, and hybrid suggestions are fetched on demand by the studio.
+  const catalogue = allWordSummaries();
+  const boardCandidates: StudioBoardCandidate[] = candidates.map((candidate) => ({
+    id: candidate.id,
+    term: candidate.term,
+    provenance: candidate.provenance,
+    scores: candidate.scores,
+    availability: candidate.availabilityReport?.domains ?? (candidate.availability ? [candidate.availability] : []),
+    isShortlisted: candidate.isShortlisted,
+  }));
 
   return (
     <main className="app-shell">
@@ -185,58 +200,28 @@ export default async function BrandPage({
       <section className="brand-block" id="names" aria-labelledby="names-title">
         <div className="brand-block__head">
           <p className="eyebrow">Step 02</p>
-          <h2 id="names-title">Names</h2>
-          <p className="brand-block__lede">Explore rooted names deliberately: choose language eras, construction approaches, rhythm, and volume—then save a generated or hand-written direction.</p>
+          <h2 id="names-title">Naming studio</h2>
+          <p className="brand-block__lede">
+            Pick a few base words from the full etymology table, see what every era has to say about them,
+            and mix their forms into names that keep their meaning. Everything you keep lives on the board below.
+          </p>
         </div>
-        <form action={generateNames} className="studio-controls">
-          {hidden}
-          <fieldset>
-            <legend>Language eras</legend>
-            <label><input type="checkbox" name="eras" value="ancientGreek" /> Ancient Greek</label>
-            <label><input type="checkbox" name="eras" value="classicalLatin" /> Classical Latin</label>
-            <label><input type="checkbox" name="eras" value="oldNorse" /> Old Norse</label>
-            <label><input type="checkbox" name="eras" value="oldEnglish" /> Old English</label>
-            <label><input type="checkbox" name="eras" value="sanskrit" /> Sanskrit</label>
-            <label><input type="checkbox" name="eras" value="arabic" /> Arabic</label>
-          </fieldset>
-          <fieldset>
-            <legend>Construction</legend>
-            <label><input type="checkbox" name="strategies" value="curated" /> Root word</label>
-            <label><input type="checkbox" name="strategies" value="affixation" /> Affixed</label>
-            <label><input type="checkbox" name="strategies" value="portmanteau" /> Blend</label>
-            <label><input type="checkbox" name="strategies" value="compound" /> Compound</label>
-            <label><input type="checkbox" name="strategies" value="truncation" /> Short form</label>
-          </fieldset>
-          <div className="field-row">
-            <div className="field"><label htmlFor="name-count">Directions</label><input id="name-count" name="count" type="number" min="6" max="40" defaultValue="16" /></div>
-            <div className="field"><label htmlFor="max-syllables">Maximum syllables</label><input id="max-syllables" name="maxSyllables" type="number" min="2" max="6" defaultValue="4" /></div>
-          </div>
-          <div className="field"><label htmlFor="name-exclusions">Exclude terms <span className="hint">comma-separated</span></label><input id="name-exclusions" name="exclusions" placeholder="names or roots you do not want" /></div>
-          <div className="form-actions"><button className="button button--primary" type="submit" disabled={!canEdit}>{candidates.length ? "Explore new names" : "Generate names"}</button></div>
-        </form>
-
-        <form action={addManualName} className="inline-form studio-manual-name">
-          {hidden}
-          <label htmlFor="manual-name">Add a name you want to test</label>
-          <input id="manual-name" name="term" maxLength={160} placeholder="A direction from your own notebook" />
-          <button className="button" type="submit" disabled={!canEdit}>Add to board</button>
-        </form>
-
-        {candidates.length ? (
-          <ul className="candidate-list">
-            {candidates.map((candidate) => (
-              <NameCard
-                key={candidate.id}
-                candidate={candidate}
-                selected={candidate.term === brand.name}
-                hidden={hidden}
-                canEdit={canEdit}
-              />
-            ))}
-          </ul>
-        ) : (
-          <p className="brand-block__empty">No names yet. Save a brief, then generate candidates.</p>
-        )}
+        <NameStudio
+          workspaceId={workspaceId}
+          brandId={brandId}
+          brandName={brand.name}
+          canEdit={canEdit}
+          catalogue={catalogue}
+          candidates={boardCandidates}
+          addManualName={addManualName}
+          removeName={removeName}
+          toggleShortlist={toggleShortlist}
+          checkNameDomains={checkNameDomains}
+          useName={useName}
+          fetchTables={fetchStudioTables}
+          fetchPieces={fetchStudioPieces}
+          fetchSuggestions={fetchStudioSuggestions}
+        />
       </section>
 
       <section className="brand-block" id="palette" aria-labelledby="palette-title">
@@ -347,62 +332,5 @@ export default async function BrandPage({
         )}
       </section>
     </main>
-  );
-}
-
-function NameCard({
-  candidate,
-  selected,
-  hidden,
-  canEdit,
-}: {
-  candidate: NameCandidateRecord;
-  selected: boolean;
-  hidden: ReactNode;
-  canEdit: boolean;
-}) {
-  const scores = candidate.scores;
-  const availability = candidate.availability;
-
-  return (
-    <li className={`candidate${selected ? " candidate--selected" : ""}`}>
-      <div className="candidate__head">
-        <h3>{candidate.term}</h3>
-        <span className="candidate__score" title="Composite score">{Math.round((scores?.composite ?? 0) * 100)}</span>
-      </div>
-      <p className="candidate__note">{candidate.provenance?.note}</p>
-      <p className="candidate__roots">
-        {(candidate.provenance?.roots ?? []).map((root) => root.language).join(" · ")}
-        <span className="candidate__strategy">{candidate.provenance?.strategy}</span>
-      </p>
-      {availability ? (
-        <p className={`candidate__domain candidate__domain--${availability.status}`}>
-          {availability.domain}: {availability.status}
-        </p>
-      ) : null}
-      <div className="candidate__actions">
-        <form action={useName}>
-          {hidden}
-          <input name="term" type="hidden" value={candidate.term} />
-          <button className="chip-button" type="submit" disabled={selected || !canEdit}>
-            {selected ? "Selected" : "Use name"}
-          </button>
-        </form>
-        <form action={toggleShortlist}>
-          {hidden}
-          <input name="candidateId" type="hidden" value={candidate.id} />
-          <input name="shortlist" type="hidden" value={String(!candidate.isShortlisted)} />
-          <button className={`chip-button${candidate.isShortlisted ? " chip-button--active" : ""}`} type="submit" disabled={!canEdit}>
-            {candidate.isShortlisted ? "Shortlisted" : "Shortlist"}
-          </button>
-        </form>
-        <form action={checkDomain}>
-          {hidden}
-          <input name="candidateId" type="hidden" value={candidate.id} />
-          <input name="term" type="hidden" value={candidate.term} />
-          <button className="chip-button" type="submit" disabled={!canEdit}>Check .com</button>
-        </form>
-      </div>
-    </li>
   );
 }

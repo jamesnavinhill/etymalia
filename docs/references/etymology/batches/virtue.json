@@ -1,0 +1,822 @@
+[
+  {
+    "word": "Ken",
+    "semanticField": "Knowledge / Recognition",
+    "layers": {
+      "pie": "*ǵneh₃- (to know)",
+      "protoGermanic": "*kennjan (to make known)",
+      "oldEnglish": "cennan (to declare, know)",
+      "oldNorse": "kenna (to perceive, recognize)",
+      "middleEnglish": "kennen (to know, acknowledge)"
+    },
+    "driftNotes": "make known > recognize > range of knowledge or sight ('beyond one's ken') > crisp monosyllable for knowledge products; archaic-Scots warmth keeps it human, not academic.",
+    "candidates": ["Kenning", "Foreken", "Kenwell"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Wit",
+    "semanticField": "Intellect / Cleverness",
+    "layers": {
+      "pie": "*weyd- (to see, know)",
+      "protoGermanic": "*witan (to know)",
+      "oldEnglish": "wit (understanding, senses)",
+      "oldNorse": "vit (sense, intelligence)",
+      "middleEnglish": "wit (mind; cleverness)"
+    },
+    "driftNotes": "to see > to know > the living senses ('five wits') > facile cleverness; shared root with video/vision — a nimble-mind brand that predates the joke.",
+    "candidates": ["Witan", "Everwit", "Witmark"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Noetic",
+    "semanticField": "Mind / Thought",
+    "layers": {
+      "ancientGreek": "noētikos (νοητικός, of the intellect), from nous (νους, mind)",
+      "classicalLatin": "noeticus (post-classical philosophical Latin rendering of Greek noētikos)"
+    },
+    "driftNotes": "Greek nous (mind, intellect) > noēsis, an act of thinking > the philosopher's adjective for pure intellection; sleek Greek abstraction with built-in intelligence signal.",
+    "candidates": ["Noetica", "Noema", "Noet"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Reason",
+    "semanticField": "Judgment / Reckoning",
+    "layers": {
+      "pie": "*h₂rē- (to reckon, reason)",
+      "classicalLatin": "ratio (reckoning, judgment, reason)",
+      "oldFrench": "raison",
+      "middleEnglish": "resoun"
+    },
+    "driftNotes": "counting > reckoning an account > measured judgment > faculty of thinking; same root as arithmetic — a considered-judgment brand with ledger-quality calm.",
+    "candidates": ["Raisona", "Resone", "Ratior"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Muse",
+    "semanticField": "Inspiration / Contemplation",
+    "layers": {
+      "pie": "*men- (to think, remember)",
+      "ancientGreek": "Mousa (Μουσα, the Muse)",
+      "classicalLatin": "Musa",
+      "oldFrench": "muse (reverie), muser (to ponder)",
+      "middleEnglish": "musen (to ponder)"
+    },
+    "driftNotes": "goddess of the arts > absorbed contemplation > the wellspring a creator waits on; names the spark itself rather than the output — a patron-saint register for tools.",
+    "candidates": ["Musera", "Musette", "Remuse"],
+    "tone": "Greek/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Ponder",
+    "semanticField": "Reflection / Deliberation",
+    "layers": {
+      "pie": "*(s)pend- (to stretch, weigh)",
+      "classicalLatin": "pondus (weight), ponderare (to weigh, consider)",
+      "oldFrench": "ponderer",
+      "middleEnglish": "ponderen (to consider)"
+    },
+    "driftNotes": "to weigh on a scale > to weigh in the mind; deliberate, unhurried gravity — thinking as careful measurement, anti-skim by construction.",
+    "candidates": ["Pondera", "Pense", "Pondere"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Fathom",
+    "semanticField": "Depth / Comprehension",
+    "layers": {
+      "pie": "*pet- (to spread out)",
+      "protoGermanic": "*faþmaz (outstretched arms)",
+      "oldEnglish": "fæðm (embrace; arm-span)",
+      "middleEnglish": "fathme (embrace; unit of depth)"
+    },
+    "driftNotes": "outstretched arms > embrace > sounding water one arm-span at a time > to understand deeply; comprehension measured by what the arms can circle.",
+    "candidates": ["Fathma", "Fathomwell", "Deepfathom"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Lore",
+    "semanticField": "Tradition / Knowledge",
+    "layers": {
+      "pie": "*leis- (track, furrow)",
+      "protoGermanic": "*laizō (teaching, instruction)",
+      "oldEnglish": "lār (instruction, learning)",
+      "middleEnglish": "lore (learning, tradition)"
+    },
+    "driftNotes": "furrow to follow > teaching handed down the track > a people's body of knowledge; heirloom expertise — 'folklore' warmth without 'knowledge' bureaucracy.",
+    "candidates": ["Lorelle", "Northlore", "Lorewell"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Fancy",
+    "semanticField": "Imagination / Whim",
+    "layers": {
+      "pie": "*bʰeh₂- (to shine, appear)",
+      "ancientGreek": "phantasia (φαντασία, making visible; imagination)",
+      "classicalLatin": "phantasia (imagination, apparition)",
+      "oldFrench": "fantasie (imagination)",
+      "middleEnglish": "fantasi (imagination; contracted to 'fancy')"
+    },
+    "driftNotes": "making visible > apparition > imagination > taste and light whim; a playful, design-forward word that hides a gleaming apparition inside.",
+    "candidates": ["Fantara", "Fanesia", "Fancette"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Delve",
+    "semanticField": "Inquiry / Digging",
+    "layers": {
+      "pie": "*dʰelbʰ- (to dig)",
+      "protoGermanic": "*delban (to dig)",
+      "oldEnglish": "delfan (to dig, burrow)",
+      "middleEnglish": "delven (to dig; to investigate)"
+    },
+    "driftNotes": "spadework in soil > burrowing into books and questions; research with dirt under its nails — tool-grade word for investigative products.",
+    "candidates": ["Delvo", "Delvera", "Delfan"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Anima",
+    "semanticField": "Soul / Life Force",
+    "layers": {
+      "pie": "*h₂enh₁- (to breathe)",
+      "classicalLatin": "anima (breath, soul, life-force)",
+      "ancientGreek": "anemos (ἄνεμος, wind) — cognate"
+    },
+    "driftNotes": "breath > the wind inside a living thing > soul; also Jung's inner self — vital-breath premium with optional depth-psychology resonance.",
+    "candidates": ["Animic", "Animora", "Animara"],
+    "tone": "Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Psyche",
+    "semanticField": "Mind / Soul",
+    "layers": {
+      "pie": "*bʰes- (to breathe, blow)",
+      "ancientGreek": "psukhē (ψυχή, breath, soul; also butterfly)",
+      "classicalLatin": "psychē (soul)"
+    },
+    "driftNotes": "breath of life > the whole inner life; in Greek the word also named the butterfly, so soul and metamorphosis share one glyph — change-ready wellness register.",
+    "candidates": ["Psykhe", "Psychea", "Psynamo"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Numen",
+    "semanticField": "Divine Presence",
+    "layers": {
+      "pie": "*new- (to nod)",
+      "classicalLatin": "numen (a god's nod; presiding power)"
+    },
+    "driftNotes": "a divine nod of assent > indwelling power in a place or thing (whence 'numinous'); quiet sacred authority without any doctrine attached.",
+    "candidates": ["Numina", "Numens", "Numora"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Ethos",
+    "semanticField": "Character / Spirit",
+    "layers": {
+      "pie": "*swedʰ- (one's own custom, nature)",
+      "ancientGreek": "ēthos (ἦθος, character, custom)"
+    },
+    "driftNotes": "custom and habit > the character a community lives by > Aristotle's credibility-of-speaker; culture made audible — trust as an audible trait.",
+    "candidates": ["Ethara", "Ethwell", "Ethor"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Heart",
+    "semanticField": "Core / Emotion",
+    "layers": {
+      "pie": "*ḱērd- (heart)",
+      "protoGermanic": "*hertō",
+      "oldEnglish": "heorte",
+      "oldNorse": "hjarta",
+      "middleEnglish": "herte"
+    },
+    "driftNotes": "the organ > seat of feeling and courage ('take heart') > sincerity itself ('heartfelt'); the warmest monosyllable in the language, cognate with Latin cor.",
+    "candidates": ["Hearta", "Herten", "Heartwell"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Valor",
+    "semanticField": "Courage / Worth",
+    "layers": {
+      "pie": "*wel- (to be strong)",
+      "classicalLatin": "valere (to be strong), valor (strength, worth)",
+      "oldFrench": "valor, valour (worth, bravery)",
+      "middleEnglish": "valour (worth; bravery)"
+    },
+    "driftNotes": "strength > price and worth > bravery proven under pressure; courage with an honor-and-worth ledger inside, cognate with 'value' and 'valid'.",
+    "candidates": ["Valora", "Valcrest", "Valouria"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Spirit",
+    "semanticField": "Breath / Vitality",
+    "layers": {
+      "pie": "*(s)peys- (to breathe, blow)",
+      "classicalLatin": "spiritus (breath, soul), spirare (to breathe)",
+      "oldFrench": "espirit, esperit",
+      "middleEnglish": "spirit"
+    },
+    "driftNotes": "breath > animating vapor > courage and distilled essence ('spirits' of wine); liveliness and distillation in one word — essence with a heartbeat.",
+    "candidates": ["Spirel", "Spiranta", "Respira"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Soul",
+    "semanticField": "Essence / Feeling",
+    "layers": {
+      "protoGermanic": "*saiwalō (soul)",
+      "oldEnglish": "sāwol, sāwl",
+      "oldNorse": "sál",
+      "middleEnglish": "soule"
+    },
+    "driftNotes": "Germanic life-spirit > moral and emotional core > depth of feeling (soul food, soul music); authenticity shorthand — warm, human, unpretentious.",
+    "candidates": ["Soulla", "Sawol", "Soulwell"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Aura",
+    "semanticField": "Presence / Atmosphere",
+    "layers": {
+      "pie": "*h₂weh₁- (to blow)",
+      "ancientGreek": "aura (αὔρα, breeze, fresh air)",
+      "classicalLatin": "aura (breeze, air, emanation)",
+      "middleEnglish": "aure, aura (gentle breeze; vapor)"
+    },
+    "driftNotes": "cooling breeze > subtle vapor and fragrance > the atmosphere a person or place radiates; vibe rendered premium — presence you can feel but not see.",
+    "candidates": ["Auralis", "Aurane", "Aurity"],
+    "tone": "Greek/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Nimbus",
+    "semanticField": "Halo / Radiance",
+    "layers": {
+      "pie": "*nebh- (cloud, mist)",
+      "classicalLatin": "nimbus (rain cloud; painted halo)",
+      "ancientGreek": "nephelē (νεφέλη, cloud) — cognate",
+      "sanskrit": "nabhas (नभस्, cloud, sky) — cognate"
+    },
+    "driftNotes": "rain-bearing cloud > the golden disc behind saints > a charisma-cloud around a person or brand; atmosphere with a luminous edge, not weather tech.",
+    "candidates": ["Nimbrel", "Nimbosa", "Auronimbus"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Candor",
+    "semanticField": "Honesty / Openness",
+    "layers": {
+      "pie": "*kand- (to shine, glow)",
+      "classicalLatin": "candor (whiteness, sincerity), candidus (white, frank)",
+      "oldFrench": "candeur"
+    },
+    "driftNotes": "glowing white > purity > frank openness; bright-honest sheen from the same gleam as 'candle' — a transparent brand voice.",
+    "candidates": ["Candent", "Incandor", "Candeia"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Honor",
+    "semanticField": "Integrity / Esteem",
+    "layers": {
+      "classicalLatin": "honor, honos (esteem, dignity, office)",
+      "oldFrench": "onor, honeur",
+      "middleEnglish": "honour"
+    },
+    "driftNotes": "public esteem and high office > reputation kept as moral stature > integrity one does not trade; plainspoken dignity, weight of the Roman cursus.",
+    "candidates": ["Honora", "Onore", "Honorwell"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Merit",
+    "semanticField": "Desert / Excellence",
+    "layers": {
+      "pie": "*(s)mer- (to remember, allot)",
+      "classicalLatin": "meritum (earned reward), merere (to earn, deserve)",
+      "oldFrench": "merite",
+      "middleEnglish": "merite"
+    },
+    "driftNotes": "wages earned > service that earns favor > deserved standing; fairness you can measure — the anti-pedigree, pay-for-what-you-earn virtue.",
+    "candidates": ["Meritum", "Merith", "Merial"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Rigor",
+    "semanticField": "Precision / Discipline",
+    "layers": {
+      "pie": "*h₃reǵ- (to straighten, rule)",
+      "classicalLatin": "rigor (stiffness, exactness), rigere (to be stiff)",
+      "oldFrench": "rigueur",
+      "middleEnglish": "rigour"
+    },
+    "driftNotes": "physical stiffness > exactness of logic > severity admired; the straightening root also yields rex and regulate — precision with a spine.",
+    "candidates": ["Rigora", "Rigeline", "Rectra"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Grace",
+    "semanticField": "Elegance / Favor",
+    "layers": {
+      "pie": "*gʷerh₂- (to favor, welcome, praise)",
+      "classicalLatin": "gratia (favor, charm), gratus (pleasing)",
+      "sanskrit": "gṛṇāti (गृणाति, praises) — cognate",
+      "oldFrench": "grace",
+      "middleEnglish": "grace"
+    },
+    "driftNotes": "favor freely given > pleasing elegance of form > poise under pressure ('saving grace'); unearned goodwill — generous warmth with a thankful root (grateful, gratitude).",
+    "candidates": ["Gracen", "Gratia", "Gracewell"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Temper",
+    "semanticField": "Moderation / Balance",
+    "layers": {
+      "pie": "*tem(p)- (to stretch)",
+      "classicalLatin": "temperare (to mix in due proportion), temperantia (moderation)",
+      "oldEnglish": "temprian (to moderate)",
+      "middleEnglish": "tempren (to mix, moderate)"
+    },
+    "driftNotes": "mixing in due measure (steel, seasons) > self-restraint > composure ('lose one's temper' inverts it); the smith's and the sage's shared word for disciplined balance.",
+    "candidates": ["Tempra", "Attempra", "Temperline"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Probity",
+    "semanticField": "Integrity / Honesty",
+    "layers": {
+      "pie": "*pro-bʰweh₂- (being foremost, upright)",
+      "classicalLatin": "probitas (honesty), probus (upright, good)",
+      "oldFrench": "probité"
+    },
+    "driftNotes": "proven good > morally tested > scrupulous honesty; same root as 'proof' and 'probation' — integrity with receipts.",
+    "candidates": ["Proba", "Provus", "Probitas"],
+    "tone": "Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Verity",
+    "semanticField": "Truth / Sincerity",
+    "layers": {
+      "pie": "*weh₁r- (true)",
+      "classicalLatin": "veritas (truth), verus (true)",
+      "oldFrench": "verité",
+      "middleEnglish": "verite (truth)"
+    },
+    "driftNotes": "truth > sincerity of statement ('in verity') > enduring principles; a fact-forward brand carrying Chaucer's medieval patina, kin to German 'wahr'.",
+    "candidates": ["Veria", "Veritel", "Truevera"],
+    "tone": "French/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Amity",
+    "semanticField": "Friendship / Goodwill",
+    "layers": {
+      "classicalLatin": "amicitia (friendship), amicus (friend), amare (to love)",
+      "vulgarLatin": "*amicitas (friendship)",
+      "oldFrench": "amistié",
+      "middleEnglish": "amite"
+    },
+    "driftNotes": "love (amare) > friendship > treaty of goodwill between peoples; diplomatic warmth — goodwill as infrastructure, kin to 'amiable' and 'amigo'.",
+    "candidates": ["Amitea", "Amicle", "Belamity"],
+    "tone": "French/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Equity",
+    "semanticField": "Fairness / Balance",
+    "layers": {
+      "classicalLatin": "aequitas (evenness, fairness), aequus (level, equal)",
+      "oldFrench": "equité",
+      "middleEnglish": "equite"
+    },
+    "driftNotes": "level ground > impartial law (the chancery sense) > modern fairness plus ownership stake; one word that levels the field and owns the upside.",
+    "candidates": ["Aequor", "Equital", "Equiten"],
+    "tone": "French/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Logic",
+    "semanticField": "Reasoning / Structure",
+    "layers": {
+      "pie": "*leǵ- (to gather; to speak)",
+      "ancientGreek": "logikē (λογική, art of reason), logos (λόγος, word, reason)",
+      "classicalLatin": "logica",
+      "oldFrench": "logique",
+      "middleEnglish": "logik"
+    },
+    "driftNotes": "gathering words > reasoned account > formal science of inference; rides logos, the deepest carrier in Greek philosophy — systems-thinker sobriety.",
+    "candidates": ["Logik", "Logique", "Logwell"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Prism",
+    "semanticField": "Optics / Analysis",
+    "layers": {
+      "ancientGreek": "prisma (πρίσμα, thing sawn), priein (πρίειν, to saw)",
+      "classicalLatin": "prisma (geometric solid)"
+    },
+    "driftNotes": "sawn-off block > geometry solid > Newton's light-splitter; takes one input and reveals its hidden spectrum — analytic brilliance with a literal cut edge.",
+    "candidates": ["Prismara", "Prisent", "Prismark"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Notion",
+    "semanticField": "Idea / Awareness",
+    "layers": {
+      "pie": "*ǵneh₃- (to know)",
+      "classicalLatin": "notio (becoming acquainted, idea), noscere (to know)",
+      "oldFrench": "nocion",
+      "middleEnglish": "nocioun"
+    },
+    "driftNotes": "becoming acquainted with a thing > any formed idea > a passing whim; same know-root as 'note' and 'cognition' — idea-stage clarity, concept before cathedral.",
+    "candidates": ["Notia", "Notero", "Notli"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Doctrine",
+    "semanticField": "Teaching / Principle",
+    "layers": {
+      "pie": "*deḱ- (to take; to be fitting)",
+      "classicalLatin": "doctrina (teaching, learning), docere (to teach)",
+      "oldFrench": "doctrine",
+      "middleEnglish": "doctrine"
+    },
+    "driftNotes": "the act of teaching > a body of principles > a codified stance; scholarly authority — kin to 'doctor' and 'docile', a stance you can cite.",
+    "candidates": ["Docera", "Doctra", "Doclane"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Theory",
+    "semanticField": "Contemplation / System",
+    "layers": {
+      "ancientGreek": "theōria (θεωρία, contemplation, spectacle), thea (θέα, sight)",
+      "classicalLatin": "theoria (speculation)",
+      "oldFrench": "theorie",
+      "middleEnglish": "theorie"
+    },
+    "driftNotes": "watching a festival rite as an official spectator (theōros) > contemplation > systematic account of things; festival-watching became science — thought as spectacle.",
+    "candidates": ["Theora", "Theorelia", "Theorite"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Axiom",
+    "semanticField": "First Principles",
+    "layers": {
+      "pie": "*h₂eǵ- (to drive; to weigh)",
+      "ancientGreek": "axiōma (ἀξίωμα, thing thought worthy), axios (ἄξιος, worthy)",
+      "classicalLatin": "axioma",
+      "middleEnglish": "axiome"
+    },
+    "driftNotes": "what weighs enough to be worthy > a self-evident starting point; bedrock certainty — first-principles packaging, kin to 'axle' and 'axis'.",
+    "candidates": ["Axia", "Axium", "Axiora"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Maxim",
+    "semanticField": "Wisdom / Rule",
+    "layers": {
+      "pie": "*meǵh₂- (great)",
+      "classicalLatin": "maxima sententia (greatest premise), maximus (greatest)",
+      "oldFrench": "maxime",
+      "middleEnglish": "maxime"
+    },
+    "driftNotes": "the 'greatest proposition' of a philosopher > pithy rule of conduct; compressed ancestral wisdom in two syllables — aphorism with superlative bones (maximum, Magnus).",
+    "candidates": ["Maxima", "Maxire", "Maximel"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Tenet",
+    "semanticField": "Belief / Principle",
+    "layers": {
+      "pie": "*ten- (to stretch)",
+      "classicalLatin": "tenet (it holds), tenere (to hold)"
+    },
+    "driftNotes": "'it holds' — the verb's third person became the noun for a belief held firm; famous from the Sator palindrome square, doctrine you hold rather than a creed you recite.",
+    "candidates": ["Tenera", "Tenaxis", "Tenetwell"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Thesis",
+    "semanticField": "Proposition / Argument",
+    "layers": {
+      "pie": "*dʰeh₁- (to put, place)",
+      "ancientGreek": "thesis (θέσις, a setting down), tithenai (τίθημι, to place)",
+      "classicalLatin": "thesis (proposition)",
+      "middleEnglish": "thesis (lowered beat; statement)"
+    },
+    "driftNotes": "a placing of the foot, of a stone > a position staked > a proposition to defend; arguments laid like masonry — strong for decision-tools and research products.",
+    "candidates": ["Theselle", "Thesion", "Thesium"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Codex",
+    "semanticField": "Book / Knowledge",
+    "layers": {
+      "classicalLatin": "caudex (tree trunk) → codex (wooden tablets, bound book, law ledger)",
+      "oldFrench": "codex (book of authorities; law compilation)",
+      "middleEnglish": "codex (bound volume of sacred or legal texts)"
+    },
+    "driftNotes": "hewn trunk > wax tablets bound together > the bound book that killed the scroll; a format revolution made word — canonical, structured, durable knowledge.",
+    "candidates": ["Codexa", "Codical", "Codiver"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Fervor",
+    "semanticField": "Zeal / Heat",
+    "layers": {
+      "pie": "*bʰreu- (to boil, bubble)",
+      "classicalLatin": "fervor (boiling heat, ardor), fervere (to boil, glow)",
+      "oldFrench": "ferveur",
+      "middleEnglish": "fervour"
+    },
+    "driftNotes": "literal boil > heat of zeal; keeps the pot-on-stove image (kin to 'brew' and 'effervesce') — passion you can measure in bubbles.",
+    "candidates": ["Fervente", "Fervorin", "Glowfervor"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Ardor",
+    "semanticField": "Passion / Fire",
+    "layers": {
+      "pie": "*h₂es- (to burn; ashes)",
+      "classicalLatin": "ardor (fire, zeal), ardere (to burn)",
+      "oldFrench": "ardor, ardour",
+      "middleEnglish": "ardour"
+    },
+    "driftNotes": "flame > consuming fire > consuming devotion; from the same burn-root as 'ash' and 'ardent' — refined brand-heat, more elegant than raw 'fire'.",
+    "candidates": ["Ardora", "Ardentia", "Ardwell"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Mercy",
+    "semanticField": "Compassion / Clemency",
+    "layers": {
+      "classicalLatin": "merces (wages, reward; Christian Latin 'heavenly kindness')",
+      "oldFrench": "merci (grace, thanks)",
+      "middleEnglish": "merci (compassion, clemency)"
+    },
+    "driftNotes": "market wages (kin to 'merchant') > the heavenly reward for kindness > forbearance shown when power is asymmetric; commerce transformed into grace.",
+    "candidates": ["Mercey", "Ammercy", "Mercienne"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Yearn",
+    "semanticField": "Longing / Desire",
+    "layers": {
+      "pie": "*ǵʰer- (to like, want)",
+      "protoGermanic": "*gernijanan (to desire), *gernaz (eager)",
+      "oldEnglish": "giernan, gyrnan (to desire)",
+      "oldNorse": "girna (to desire)",
+      "middleEnglish": "yernen (to desire)"
+    },
+    "driftNotes": "eager wanting > the ache of longing (its old moral edge quietly dropped); hunger that stays noble — desire without grasping, strong for mission brands.",
+    "candidates": ["Yearna", "Yearner", "Yearnwell"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Empathy",
+    "semanticField": "Feeling / Connection",
+    "layers": {
+      "ancientGreek": "empatheia (ἐμπάθεια, strong feeling); em- (in) + pathos (πάθος, feeling)",
+      "classicalLatin": "pathos (πάθος, suffering/experience — root borrowed into philosophical Latin for Greek affect-terminology)"
+    },
+    "driftNotes": "coined in 1904 to render German Einfühlung ('feeling into' a painting) > psychology's emotion-sharing > the listening superpower; a modern coin on ancient parts.",
+    "candidates": ["Empathia", "Empathea", "Sympathine"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Zeal",
+    "semanticField": "Ardor / Dedication",
+    "layers": {
+      "ancientGreek": "zēlos (ζῆλος, ardor, emulation)",
+      "classicalLatin": "zelus (zeal, rivalry)",
+      "oldFrench": "zele",
+      "middleEnglish": "zele"
+    },
+    "driftNotes": "emulation and rivalry (it could curdle into 'jealousy') > fervent dedication; concentrated drive with a spicy ancient edge — kin to 'zealot', so the fire is built in.",
+    "candidates": ["Zelara", "Zealwise", "Enzel"],
+    "tone": "Greek/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Passion",
+    "semanticField": "Intensity / Devotion",
+    "layers": {
+      "classicalLatin": "passio (suffering, enduring), pati (to endure)",
+      "oldFrench": "passion",
+      "middleEnglish": "passioun"
+    },
+    "driftNotes": "enduring what befalls you > the Passion narrative > any overwhelming emotion > what you cannot not do; endurance turned all-consuming — gravity, not hype.",
+    "candidates": ["Passora", "Passerel", "Passio"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Reverie",
+    "semanticField": "Daydream / Musing",
+    "layers": {
+      "oldFrench": "resver (to wander, rave), resverie (wildness, delight)",
+      "middleEnglish": "reverie (wild fancy, revelry)"
+    },
+    "driftNotes": "raving, wandering speech > wild delight and revelry > the soft daydream state; the brainstorm-before-focus mood — creative products use the calm sense.",
+    "candidates": ["Reverine", "Revelune", "Rêveur"],
+    "tone": "French",
+    "syllables": 3
+  },
+  {
+    "word": "Pathos",
+    "semanticField": "Emotion / Sympathy",
+    "layers": {
+      "ancientGreek": "pathos (πάθος, suffering, experience, emotion)",
+      "classicalLatin": "pathos (rhetorical emotion)"
+    },
+    "driftNotes": "what befalls one > the emotion an orator stirs; Aristotle's heart-string member of the ethos–pathos–logos trio — feeling as a design material.",
+    "candidates": ["Patheme", "Pathere", "Empathos"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Awe",
+    "semanticField": "Wonder / Reverence",
+    "layers": {
+      "pie": "*h₂egʰ- (to fear, dread)",
+      "protoGermanic": "*agaz (terror)",
+      "oldEnglish": "ege (fear, dread)",
+      "oldNorse": "agi (terror, awe)",
+      "middleEnglish": "awe (dread; reverence)"
+    },
+    "driftNotes": "terror before the numinous > reverential wonder with a tremor kept inside; three letters from fear to wonderment — 'awesome' is its diluted descendant.",
+    "candidates": ["Agi", "Awehold", "Awelyn"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Aim",
+    "semanticField": "Direction / Purpose",
+    "layers": {
+      "classicalLatin": "aestimare (to appraise, value)",
+      "oldFrench": "esmer, aemer (to reckon; to aim)",
+      "middleEnglish": "aimen (to estimate; to direct at a target)"
+    },
+    "driftNotes": "appraising value > judging distance > pointing at a target; kin to 'esteem' and 'estimate' — calculation made directional, goal-setting with a valuer's eye.",
+    "candidates": ["Aimer", "Aimward", "Aesim"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Quest",
+    "semanticField": "Search / Adventure",
+    "layers": {
+      "classicalLatin": "quaerere (to seek, ask), quaestio (inquiry)",
+      "oldFrench": "queste (hunt, search)",
+      "middleEnglish": "queste (game hunt; pursuit)"
+    },
+    "driftNotes": "seeking and asking > the hunt for game > the chivalric search for the Grail; a question wearing armor — inquiry framed as adventure, kin to 'query' and 'inquest'.",
+    "candidates": ["Questra", "Quaero", "Questwell"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Pursuit",
+    "semanticField": "Chase / Endeavor",
+    "layers": {
+      "pie": "*sekʷ- (to follow)",
+      "classicalLatin": "prosequi (to follow forward), sequi (to follow)",
+      "oldFrench": "poursuir (to chase)",
+      "middleEnglish": "pursuit (chase; occupation)"
+    },
+    "driftNotes": "following forward > the chase (and the prosecution bench — same root as 'prosecute') > a dedicated endeavor; motion toward, never mere wanting.",
+    "candidates": ["Sequor", "Pursuiva", "Prosequa"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Intent",
+    "semanticField": "Purpose / Attention",
+    "layers": {
+      "pie": "*ten- (to stretch)",
+      "classicalLatin": "intendere (to stretch toward), intentus (attentive, strained)",
+      "oldFrench": "entente (purpose)",
+      "middleEnglish": "entente (intention)"
+    },
+    "driftNotes": "straining toward > fixed attention > purpose with resolve implied; a drawn bow, not a decision memo — directional brother of 'tend', 'tension', and 'attend'.",
+    "candidates": ["Intenza", "Intentia", "Tendent"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Strive",
+    "semanticField": "Effort / Aspiration",
+    "layers": {
+      "protoGermanic": "*strīdō (strife, struggle)",
+      "oldFrench": "estriver (to contend, quarrel)",
+      "oldNorse": "stríð (strife, grief)",
+      "middleEnglish": "striven (to quarrel; to struggle, try hard)"
+    },
+    "driftNotes": "quarrel and contention > the fight redirected inward as effort; 'strife' tamed into aspiration — exertion as channeled combat, effort with a warrior past.",
+    "candidates": ["Striva", "Estrive", "Strivewell"],
+    "tone": "Germanic/French",
+    "syllables": 1
+  },
+  {
+    "word": "Venture",
+    "semanticField": "Risk / Enterprise",
+    "layers": {
+      "pie": "*gʷem- (to come, go)",
+      "classicalLatin": "advenire (to arrive), adventura (things about to come)",
+      "oldFrench": "aventure (chance, event)",
+      "middleEnglish": "aventure → aphetic 'venture'"
+    },
+    "driftNotes": "what-is-about-to-come > happening by chance > risking oneself on the coming thing; the future treated as terrain — bold without being finance-locked.",
+    "candidates": ["Advena", "Venturia", "Venteq"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Mission",
+    "semanticField": "Calling / Purpose",
+    "layers": {
+      "classicalLatin": "missio (a sending), mittere (to send)",
+      "oldFrench": "mission (a sending; a task)"
+    },
+    "driftNotes": "the sending of envoys and friars > a personal calling or undertaking; you don't merely have a mission, you're sent on one — purpose with a dispatch built in.",
+    "candidates": ["Missio", "Mittera", "Admissar"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Threshold",
+    "semanticField": "Beginning / Transition",
+    "layers": {
+      "protoGermanic": "*þreskan (to thresh, tread), *þreskuldaz (sill)",
+      "oldEnglish": "þerscold, þrescold (door sill)",
+      "oldNorse": "þreskǫldr (doorstep)",
+      "middleEnglish": "thresshold"
+    },
+    "driftNotes": "the trampled sill that kept threshed grain in > point of entry > the limit where a new state begins (pain threshold); doorway physics becoming psychology — crossings and new regimes.",
+    "candidates": ["Thresco", "Threll", "Gatesill"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Ideal",
+    "semanticField": "Perfection / Standard",
+    "layers": {
+      "pie": "*weyd- (to see)",
+      "ancientGreek": "idea (ἰδέα, form, semblance), idein (ἰδεῖν, to see)",
+      "classicalLatin": "idea (Platonic form); late idealis",
+      "oldFrench": "ideal (perfect model)"
+    },
+    "driftNotes": "something seen > Plato's form beyond sight > the perfect exemplar one strives toward; aspiration with a philosopher's passport — the visible made into a standard.",
+    "candidates": ["Idera", "Ideelle", "Ideaform"],
+    "tone": "Greek/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Horizon",
+    "semanticField": "Expanse / Possibility",
+    "layers": {
+      "ancientGreek": "horizōn (ὁρίζων, bounding [circle]), horos (ὅρος, boundary)",
+      "classicalLatin": "horizon",
+      "oldFrench": "orizon",
+      "middleEnglish": "orizonte"
+    },
+    "driftNotes": "the bounding line where earth finishes > the circle that meets the sky > the limit of sight and knowledge ('expand your horizons'); a boundary that recedes as you advance — hope with geometry.",
+    "candidates": ["Horizia", "Orizon", "Newhoriz"],
+    "tone": "Greek/Latin",
+    "syllables": 3
+  }
+]

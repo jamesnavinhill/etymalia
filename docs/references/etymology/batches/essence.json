@@ -1,0 +1,852 @@
+[
+  {
+    "word": "Stone",
+    "semanticField": "Earth / Permanence",
+    "layers": {
+      "pie": "*steyh₂- (to stiffen)",
+      "protoGermanic": "*stainaz",
+      "oldEnglish": "stān",
+      "oldNorse": "steinn",
+      "middleEnglish": "stone"
+    },
+    "driftNotes": "Stiffened rock > standing pillar > monument and measure; the most literal anchor-word for built-to-last brands.",
+    "candidates": ["Stainaz", "Sten", "Stein"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "River",
+    "semanticField": "Water / Flow",
+    "layers": {
+      "classicalLatin": "rīpa (riverbank), rīpārius (of the bank)",
+      "vulgarLatin": "rīpāria (river)",
+      "oldFrench": "riviere",
+      "middleEnglish": "rivere"
+    },
+    "driftNotes": "Riverbank > the water running between banks > life's continuous current; movement and carrying-things-forward baked into the root.",
+    "candidates": ["Riva", "Riparia", "Rivere"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Leaf",
+    "semanticField": "Growth / Renewal",
+    "layers": {
+      "pie": "*lewbʰ- (to peel off)",
+      "protoGermanic": "*laubaz",
+      "oldEnglish": "lēaf",
+      "oldNorse": "lauf",
+      "middleEnglish": "leef"
+    },
+    "driftNotes": "Papery peel-off layer > foliage > a page freshly turned; the lightest unit of green growth, ideal for renewal stories.",
+    "candidates": ["Laub", "Lauf", "Leav"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Sky",
+    "semanticField": "Air / Vastness",
+    "layers": {
+      "pie": "*(s)kewH- (to cover, conceal)",
+      "protoGermanic": "*skujô (cloud, covering)",
+      "oldNorse": "ský (cloud)",
+      "middleEnglish": "skie"
+    },
+    "driftNotes": "Cloud covering > the heavens themselves > limitless headroom; Norse bluntness carrying an open-air promise.",
+    "candidates": ["Ský", "Skio", "Skumn"],
+    "tone": "Germanic/Norse",
+    "syllables": 1
+  },
+  {
+    "word": "Fern",
+    "semanticField": "Growth / Wildwood",
+    "layers": {
+      "pie": "*pornóm (feather, wing)",
+      "sanskrit": "parṇá (पर्ण, feather, leaf)",
+      "protoGermanic": "*farną",
+      "oldEnglish": "fearn",
+      "middleEnglish": "ferne"
+    },
+    "driftNotes": "Feather > feather-shaped frond > the plant itself; a quiet, prehistoric woodland name with feathered elegance.",
+    "candidates": ["Farn", "Parna", "Fearn"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Vale",
+    "semanticField": "Valley / Shelter",
+    "layers": {
+      "classicalLatin": "vallis (valley)",
+      "oldFrench": "val",
+      "middleEnglish": "vale"
+    },
+    "driftNotes": "Low-lying land > poetic shelter between hills > a journey 'through the vale'; soft-green pastoral calm in one syllable.",
+    "candidates": ["Vallis", "Valta", "Valen"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Tide",
+    "semanticField": "Water / Cycles",
+    "layers": {
+      "pie": "*deh₂y- (to divide, apportion time)",
+      "protoGermanic": "*tīdiz (time, season)",
+      "oldEnglish": "tīd (appointed time)",
+      "oldNorse": "tíð",
+      "middleEnglish": "tide"
+    },
+    "driftNotes": "Portion of time > hourly sea-spell > the rising flood itself; rhythm-driven brands love its ebb-and-return cadence.",
+    "candidates": ["Tida", "Tizi", "Tiyd"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Brook",
+    "semanticField": "Water / Persistence",
+    "layers": {
+      "protoGermanic": "*brōkaz (marsh, stream)",
+      "oldEnglish": "brōc",
+      "middleEnglish": "brok"
+    },
+    "driftNotes": "Marshy break in the ground > small running stream > gentle constancy; an unpretentious, babbling kind of brand warmth.",
+    "candidates": ["Brok", "Broka", "Bruca"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Moss",
+    "semanticField": "Growth / Softness",
+    "layers": {
+      "pie": "*mews- (moss, damp)",
+      "protoGermanic": "*musaz",
+      "oldEnglish": "mos",
+      "oldNorse": "mosi",
+      "middleEnglish": "mos"
+    },
+    "driftNotes": "Damp green softness > carpet of the forest floor > the patient covering of old stone; texture that whispers age and care.",
+    "candidates": ["Mosa", "Mosi", "Musen"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Moor",
+    "semanticField": "Heath / Open Land",
+    "layers": {
+      "protoGermanic": "*mōraz (marsh, moor)",
+      "oldEnglish": "mōr",
+      "middleEnglish": "more"
+    },
+    "driftNotes": "Marshy waste > open heath > the untamed wild above the treeline; brooding, windswept ruggedness for outdoorsy brands.",
+    "candidates": ["Mora", "Moren"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Forge",
+    "semanticField": "Shaping / Craft",
+    "layers": {
+      "classicalLatin": "fabrica (workshop), fabricāre (to fashion)",
+      "oldFrench": "forge",
+      "middleEnglish": "forge"
+    },
+    "driftNotes": "Smith's workshop > the furnace where metal yields > the act of creating anything new; the definitive make-something brand verb.",
+    "candidates": ["Forja", "Fabric", "Fabria"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Grain",
+    "semanticField": "Growth / Sustenance",
+    "layers": {
+      "pie": "*ǵrh₂nóm (ripe seed)",
+      "protoGermanic": "*kurną (kern, corn)",
+      "classicalLatin": "grānum (seed)",
+      "oldFrench": "grain",
+      "middleEnglish": "grein"
+    },
+    "driftNotes": "Worn-down ripe seed > the smallest unit of plenty > the texture running through wood; nourishment and material honesty in one word.",
+    "candidates": ["Granum", "Kurna", "Greyn"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Timber",
+    "semanticField": "Building / Material",
+    "layers": {
+      "pie": "*demh₂- (to build, house)",
+      "ancientGreek": "dōma (δῶμα, house)",
+      "classicalLatin": "domus (house)",
+      "protoGermanic": "*timrą (building material)",
+      "oldEnglish": "timber",
+      "middleEnglish": "timber"
+    },
+    "driftNotes": "House > the wood you'd build one from > standing forest fit for rafters; structural honesty — the brand itself is load-bearing.",
+    "candidates": ["Timra", "Domar", "Timbr"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Glaze",
+    "semanticField": "Surface / Finish",
+    "layers": {
+      "pie": "*ǵʰel- (to shine)",
+      "protoGermanic": "*glasą (glass, shiny)",
+      "oldEnglish": "glæs",
+      "middleEnglish": "glasen (to fit with glass)"
+    },
+    "driftNotes": "Shiny glass > the thin glass surface fused to pottery > the polish on a finished thing; craft perfection in a vowel-smooth word.",
+    "candidates": ["Glaso", "Glaza", "Glaes"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Kiln",
+    "semanticField": "Fire / Transformation",
+    "layers": {
+      "pie": "*pekʷ- (to cook)",
+      "classicalLatin": "culina (oven, kitchen)",
+      "oldEnglish": "cyln",
+      "middleEnglish": "kilne"
+    },
+    "driftNotes": "Cooking oven > drying chamber for clay and grain > where raw earth becomes permanent; transformation-through-heat energy.",
+    "candidates": ["Cyln", "Kulina", "Kilna"],
+    "tone": "Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Anvil",
+    "semanticField": "Forging / Resilience",
+    "layers": {
+      "protoGermanic": "*anafaltaz (the beaten-upon thing)",
+      "oldEnglish": "anfilte",
+      "middleEnglish": "anfilt"
+    },
+    "driftNotes": "Beaten-upon block > the smith's unshakable surface > where ideas take shape under pressure; steadiness personified.",
+    "candidates": ["Anfilt", "Anvel", "Falta"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Chisel",
+    "semanticField": "Cutting / Precision",
+    "layers": {
+      "classicalLatin": "caedere (to cut)",
+      "vulgarLatin": "*cisellum (small cutter)",
+      "oldFrench": "cisel",
+      "middleEnglish": "chisel"
+    },
+    "driftNotes": "Little cutter > sculptor's edge > deliberate removal to reveal the form inside; brands that refine rather than add.",
+    "candidates": ["Cisel", "Cesel", "Caed"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Hammer",
+    "semanticField": "Force / Shaping",
+    "layers": {
+      "pie": "*h₂eḱmōn (sharp stone)",
+      "sanskrit": "áśman (अश्मन्, stone)",
+      "protoGermanic": "*hamaraz",
+      "oldEnglish": "hamor",
+      "oldNorse": "hamarr",
+      "middleEnglish": "hamer"
+    },
+    "driftNotes": "Sharpened stone > the striker on the anvil > decisive force applied with intent; raw capability without apology.",
+    "candidates": ["Hamar", "Hammar", "Ammer"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Quarry",
+    "semanticField": "Stone / Extraction",
+    "layers": {
+      "classicalLatin": "quadrus (square), quadrāre (to square stone)",
+      "vulgarLatin": "*quadrāria (stone-squaring place)",
+      "oldFrench": "quarriere",
+      "middleEnglish": "quarrere"
+    },
+    "driftNotes": "Squaring stones > the pit they are squared from > a deep reservoir of raw material; unmined potential in rugged packaging.",
+    "candidates": ["Quarra", "Quadran", "Quarryn"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Flint",
+    "semanticField": "Stone / Ignition",
+    "layers": {
+      "protoGermanic": "*flintaz (hard dark stone)",
+      "oldEnglish": "flint",
+      "middleEnglish": "flint"
+    },
+    "driftNotes": "Hard dark stone > the spark-striker > determination as hard as rock; strike-readiness and ignition in one crisp syllable.",
+    "candidates": ["Flinten", "Flinta"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Gleam",
+    "semanticField": "Light / Signal",
+    "layers": {
+      "pie": "*ǵʰley- (to shine, glow)",
+      "protoGermanic": "*glaimiz (brightness)",
+      "oldEnglish": "glǣm (flash, splendor)",
+      "middleEnglish": "glem"
+    },
+    "driftNotes": "Focused brightness > a single ray finding you > hope glimpsed at distance; one-syllable warmth with spotlight quality.",
+    "candidates": ["Glaim", "Glema", "Glaem"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Candle",
+    "semanticField": "Light / Warmth",
+    "layers": {
+      "pie": "*(s)kand- (to glow white)",
+      "classicalLatin": "candēre (to shine), candēla",
+      "oldEnglish": "candel",
+      "middleEnglish": "candel"
+    },
+    "driftNotes": "Glowing white > the wax light > keeping vigil by hand-held flame; human-scale warmth, the opposite of stadium floodlights.",
+    "candidates": ["Candela", "Kandla"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Lantern",
+    "semanticField": "Light / Guidance",
+    "layers": {
+      "ancientGreek": "lamptḗr (λαμπτήρ, torch, lamp)",
+      "classicalLatin": "lanterna",
+      "oldFrench": "lanterne",
+      "middleEnglish": "lanterne"
+    },
+    "driftNotes": "Shining torch > the guarded lamp in its case > a light that travels with you; classic wayfinding without condescension.",
+    "candidates": ["Lanterra", "Lanterno"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Glow",
+    "semanticField": "Light / Radiance",
+    "layers": {
+      "pie": "*ǵʰlō- (to shine)",
+      "protoGermanic": "*glōaną",
+      "oldEnglish": "glōwan",
+      "middleEnglish": "glowen"
+    },
+    "driftNotes": "Shining without flame > steady light emitted from within > a brand that visibly thrives; soft, sustainable warmth.",
+    "candidates": ["Gloa", "Glowen"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Dawn",
+    "semanticField": "Light / Beginning",
+    "layers": {
+      "pie": "*dʰegʷʰ- (to burn, day-heat)",
+      "protoGermanic": "*dagaz (day), *dagōjaną (to become day)",
+      "oldEnglish": "dagian (to dawn)",
+      "oldNorse": "dagr (day)",
+      "middleEnglish": "dawen"
+    },
+    "driftNotes": "Burning daylight > the moment day begins > fresh starts and first light; optimism in its most literal possible form.",
+    "candidates": ["Dagna", "Dawen"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Ember",
+    "semanticField": "Fire / Endurance",
+    "layers": {
+      "pie": "*h₂eydʰ- (to burn)",
+      "ancientGreek": "aîthos (αἶθος, burning)",
+      "protoGermanic": "*aimuzjǭ",
+      "oldEnglish": "ǣmyrge",
+      "oldNorse": "eimyrja",
+      "middleEnglish": "emer"
+    },
+    "driftNotes": "Burning > the coal that keeps its fire under the ash > banked endurance; the brand that never fully goes out.",
+    "candidates": ["Aetho", "Emry", "Eimyr"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Spark",
+    "semanticField": "Ignition / Origin",
+    "layers": {
+      "protoGermanic": "*sparkô",
+      "oldEnglish": "spearca",
+      "middleEnglish": "sparke"
+    },
+    "driftNotes": "Flying fire-fleck > the flash that starts fires > a tiny initiating insight; catalytic energy in playful packaging.",
+    "candidates": ["Sparka", "Sparca", "Sparko"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Kindle",
+    "semanticField": "Ignition / Care",
+    "layers": {
+      "protoGermanic": "*kundijaną (to cause to burn)",
+      "oldNorse": "kynda (to set on fire)",
+      "middleEnglish": "kindlen"
+    },
+    "driftNotes": "To set alight > to rouse feeling > patient flame-tending rather than the flash; a nurturing take on bringing things to life.",
+    "candidates": ["Kynda", "Kyndra"],
+    "tone": "Germanic/Norse",
+    "syllables": 2
+  },
+  {
+    "word": "Ray",
+    "semanticField": "Light / Focus",
+    "layers": {
+      "classicalLatin": "radius (rod, spoke, beam of light)",
+      "oldFrench": "rai",
+      "middleEnglish": "raye"
+    },
+    "driftNotes": "Spoke of a wheel > a thin beam breaking through > attention and clarity; brightness with geometry and precision.",
+    "candidates": ["Raya", "Raio", "Radi"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Beam",
+    "semanticField": "Light / Structure",
+    "layers": {
+      "pie": "*bʰewH- (to grow, become)",
+      "protoGermanic": "*baumaz (tree)",
+      "oldEnglish": "bēam (tree, wooden bar)",
+      "middleEnglish": "beem"
+    },
+    "driftNotes": "Tree > wooden support bar > a bar of light; a double-duty word, structural and radiant at the same time.",
+    "candidates": ["Bema", "Bauma"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Tone",
+    "semanticField": "Sound / Character",
+    "layers": {
+      "pie": "*ten- (to stretch)",
+      "ancientGreek": "tónos (τόνος, stretched string, pitch)",
+      "classicalLatin": "tonus",
+      "oldFrench": "ton",
+      "middleEnglish": "tone"
+    },
+    "driftNotes": "Stretched string > musical pitch > the whole character of a voice; the quintessential word for brand personality.",
+    "candidates": ["Tono", "Tane"],
+    "tone": "Greek",
+    "syllables": 1
+  },
+  {
+    "word": "Echo",
+    "semanticField": "Sound / Response",
+    "layers": {
+      "ancientGreek": "ēkhṓ (ἠχώ, sound; the fading nymph)",
+      "classicalLatin": "ēchō",
+      "middleEnglish": "ecco"
+    },
+    "driftNotes": "The nymph faded until only voice remained > sound returning from the cliffs > repetition with personality; memory and answer in two syllables.",
+    "candidates": ["Ekho", "Echya"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Chord",
+    "semanticField": "Sound / Agreement",
+    "layers": {
+      "ancientGreek": "khordḗ (χορδή, gut-string)",
+      "classicalLatin": "chorda",
+      "middleEnglish": "corde (reshaped chord after Latin)"
+    },
+    "driftNotes": "Gut string > several strings struck together > the sound of things agreeing; instant shorthand for harmony.",
+    "candidates": ["Khorda", "Cordia"],
+    "tone": "Greek",
+    "syllables": 1
+  },
+  {
+    "word": "Murmur",
+    "semanticField": "Sound / Intimacy",
+    "layers": {
+      "pie": "*mormor- (to murmur, reduplicated)",
+      "sanskrit": "marmara (मर्मर, rustling)",
+      "classicalLatin": "murmurāre",
+      "oldFrench": "murmurer",
+      "middleEnglish": "murmure"
+    },
+    "driftNotes": "Rustling repetition > soft continuous speech > the crowd's low agreeing hum; an intimate, confiding sound-brand.",
+    "candidates": ["Murmura", "Marmar"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Cadence",
+    "semanticField": "Sound / Rhythm",
+    "layers": {
+      "pie": "*kad- (to fall)",
+      "classicalLatin": "cadere (to fall)",
+      "vulgarLatin": "*cadentia (falling)",
+      "oldFrench": "cadence",
+      "middleEnglish": "cadence"
+    },
+    "driftNotes": "Falling > the falling rhythm of footfalls and syllables > work's natural time signature; brands that move with a pulse.",
+    "candidates": ["Cadenta", "Caden", "Kadens"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Chime",
+    "semanticField": "Sound / Signal",
+    "layers": {
+      "ancientGreek": "kýmbalon (κύμβαλον, cymbal, from kýmbē 'bowl')",
+      "classicalLatin": "cymbalum",
+      "oldFrench": "chimbe",
+      "middleEnglish": "chime"
+    },
+    "driftNotes": "Hollow bowl percussion > striking the hour > a pleasant alert; notifications done delightfully.",
+    "candidates": ["Cymba", "Kimbe", "Chymba"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Anthem",
+    "semanticField": "Sound / Ceremony",
+    "layers": {
+      "ancientGreek": "antíphōna (ἀντίφωνα, voices answering)",
+      "classicalLatin": "antiphōna",
+      "vulgarLatin": "*antefana",
+      "oldEnglish": "antefn",
+      "middleEnglish": "antem"
+    },
+    "driftNotes": "Voices answering each other > sacred singing > a rallying song; brand-as-movement ambition, sung in unison.",
+    "candidates": ["Antefan", "Antiphon"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Melody",
+    "semanticField": "Sound / Song",
+    "layers": {
+      "ancientGreek": "melōidiā (μελῳδία, song-singing: mélos + ōidḗ)",
+      "classicalLatin": "melōdia",
+      "oldFrench": "melodie",
+      "middleEnglish": "melodie"
+    },
+    "driftNotes": "Sweet song > the tune everyone hums > effortless memorability; the stickiest property a brand can borrow.",
+    "candidates": ["Melodia", "Melo"],
+    "tone": "Greek",
+    "syllables": 3
+  },
+  {
+    "word": "Verse",
+    "semanticField": "Language / Poetry",
+    "layers": {
+      "pie": "*wert- (to turn)",
+      "classicalLatin": "versus (turn of the plow > line of writing)",
+      "oldFrench": "vers",
+      "middleEnglish": "vers"
+    },
+    "driftNotes": "Plow turning at the furrow's end > a written line > poetry and scripture; crafted language with furrow-deep roots.",
+    "candidates": ["Versa", "Verset"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Carol",
+    "semanticField": "Sound / Celebration",
+    "layers": {
+      "ancientGreek": "khorós (χορός, ring-dance)",
+      "classicalLatin": "chorus",
+      "oldFrench": "carole (ring-dance)",
+      "middleEnglish": "carol"
+    },
+    "driftNotes": "Dancing in a ring > the song you dance it to > festive singing together; communal joy, sung shoulder-to-shoulder.",
+    "candidates": ["Carola", "Khoros"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Drift",
+    "semanticField": "Motion / Current",
+    "layers": {
+      "pie": "*dʰreybʰ- (to drive, push)",
+      "protoGermanic": "*drībaną (to drive)",
+      "oldEnglish": "drīfan",
+      "oldNorse": "drīfa",
+      "middleEnglish": "drift"
+    },
+    "driftNotes": "Pushed onward > carried by water or wind > purposeful wandering; go-with-the-flow brands with quiet confidence.",
+    "candidates": ["Drifa", "Drifan"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Voyage",
+    "semanticField": "Motion / Expedition",
+    "layers": {
+      "classicalLatin": "viāticum (travel provisions, from via 'road')",
+      "vulgarLatin": "viāticum",
+      "oldFrench": "voyage",
+      "middleEnglish": "viage"
+    },
+    "driftNotes": "Road-money provisioned for the trip > the journey itself > an epic crossing; the grand tour, not the commute.",
+    "candidates": ["Viatik", "Voyaja"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Trail",
+    "semanticField": "Motion / Path",
+    "layers": {
+      "pie": "*dʰregʰ- (to draw, drag)",
+      "classicalLatin": "trahere (to drag)",
+      "vulgarLatin": "*tragulāre (to drag a sledge)",
+      "oldFrench": "trailler (to tow)",
+      "middleEnglish": "traillen"
+    },
+    "driftNotes": "Dragging behind > the beaten track through the wild >blaze-your-own; pioneer spirit minus the swagger.",
+    "candidates": ["Tragul", "Tralla"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Stride",
+    "semanticField": "Motion / Confidence",
+    "layers": {
+      "protoGermanic": "*strīdaną (to stride)",
+      "oldEnglish": "strīdan",
+      "middleEnglish": "striden"
+    },
+    "driftNotes": "Long purposeful step > covering ground in single bounds > unstoppable forward motion; posture rather than speed.",
+    "candidates": ["Strida", "Strido"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Wander",
+    "semanticField": "Motion / Curiosity",
+    "layers": {
+      "protoGermanic": "*wandōjaną (to wander)",
+      "oldEnglish": "wandrian",
+      "middleEnglish": "wandren"
+    },
+    "driftNotes": "Turning this way and that > walking without a fixed goal > serendipity as a method; brands that trust the side-road.",
+    "candidates": ["Wandra", "Wandare"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Glide",
+    "semanticField": "Motion / Ease",
+    "layers": {
+      "pie": "*ǵʰleydʰ- (smooth, shining; to slide)",
+      "protoGermanic": "*glīdaną",
+      "oldEnglish": "glīdan",
+      "middleEnglish": "gliden"
+    },
+    "driftNotes": "Shining smoothness > slipping along without friction > effortless traversal; premium smoothness with no bumps.",
+    "candidates": ["Glida", "Glidon"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Vault",
+    "semanticField": "Motion / Leap",
+    "layers": {
+      "pie": "*welh₃- (to turn, roll)",
+      "classicalLatin": "volūta (rolled, arched)",
+      "vulgarLatin": "*voluta",
+      "oldFrench": "voute (arch), volter (to leap)",
+      "middleEnglish": "vowte"
+    },
+    "driftNotes": "Turning, rolling > curved stone arch > one clean bound over; security and athleticism sharing a single syllable.",
+    "candidates": ["Voluta", "Voltra", "Vouta"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Compass",
+    "semanticField": "Motion / Direction",
+    "layers": {
+      "classicalLatin": "passus (step)",
+      "vulgarLatin": "*compassāre (to pace out)",
+      "oldFrench": "compasse",
+      "middleEnglish": "compas"
+    },
+    "driftNotes": "Pacing out distance > drawing exact circles > the needle that holds north; guidance-forward without ever being bossy.",
+    "candidates": ["Compasa", "Compace"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Fleet",
+    "semanticField": "Motion / Swiftness",
+    "layers": {
+      "pie": "*plew- (to flow)",
+      "protoGermanic": "*fleutaną (to float)",
+      "oldEnglish": "flēot (ship), flēotan (to float)",
+      "middleEnglish": "flete"
+    },
+    "driftNotes": "Floating on water > ships moving as one body > smooth swiftness; coordinated motion at scale.",
+    "candidates": ["Fleota", "Fleot"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Wend",
+    "semanticField": "Motion / Direction",
+    "layers": {
+      "pie": "*wendʰ- (to turn, weave)",
+      "protoGermanic": "*wandjaną (to turn)",
+      "oldEnglish": "wendan (to turn, go)",
+      "oldNorse": "venda",
+      "middleEnglish": "wenden"
+    },
+    "driftNotes": "Turning intentionally > making your way along > 'wend your way home'; deliberate, low-key forward progress.",
+    "candidates": ["Wenda", "Wendt"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Spring",
+    "semanticField": "Season / Renewal",
+    "layers": {
+      "pie": "*sperǵʰ- (to jerk, leap)",
+      "protoGermanic": "*springaną (to leap)",
+      "oldEnglish": "springan",
+      "middleEnglish": "spring"
+    },
+    "driftNotes": "Sudden leap > water leaping from the ground > the season when everything leaps up; bounce, source, and growth in one word.",
+    "candidates": ["Springa", "Sprong"],
+    "tone": "Germanic",
+    "syllables": 1
+  },
+  {
+    "word": "Solstice",
+    "semanticField": "Season / Turning Point",
+    "layers": {
+      "pie": "*seh₂wōl (the sun)",
+      "classicalLatin": "sōlstitium (sun-standing-still)",
+      "oldFrench": "solstice",
+      "middleEnglish": "solstice"
+    },
+    "driftNotes": "The sun stands still > the year's great pivot > longest light before the turn; pivotal-moment branding at cosmic scale.",
+    "candidates": ["Solstia", "Solte"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Annual",
+    "semanticField": "Time / Recurrence",
+    "layers": {
+      "classicalLatin": "annus (year), annuālis (of the year)",
+      "oldFrench": "annuel",
+      "middleEnglish": "annuel"
+    },
+    "driftNotes": "The year's ring > returning once a year > the trusted recurring ritual; institutional permanence with a heartbeat.",
+    "candidates": ["Annua", "Annel"],
+    "tone": "French/Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Season",
+    "semanticField": "Time / Ripeness",
+    "layers": {
+      "pie": "*seh₁- (to sow)",
+      "classicalLatin": "satiō (a sowing)",
+      "vulgarLatin": "*sesiō (seed-time)",
+      "oldFrench": "saison",
+      "middleEnglish": "sesoun"
+    },
+    "driftNotes": "Sowing time > any naturally right moment > the proper time for each thing; timing-brands with agricultural patience baked in.",
+    "candidates": ["Saisona", "Sesio"],
+    "tone": "French/Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Prime",
+    "semanticField": "Time / Peak",
+    "layers": {
+      "pie": "*per- (forward, first)",
+      "classicalLatin": "prīmus (first), prīma hōra (first hour)",
+      "oldFrench": "prime",
+      "middleEnglish": "prime"
+    },
+    "driftNotes": "First hour of the day > first in rank > the best season of a life; top-shelf positioning in one confident syllable.",
+    "candidates": ["Primora", "Primo"],
+    "tone": "French/Latin",
+    "syllables": 1
+  },
+  {
+    "word": "Equinox",
+    "semanticField": "Time / Balance",
+    "layers": {
+      "pie": "*nókʷts (night)",
+      "classicalLatin": "aequinoctium (equal night)",
+      "oldFrench": "equinoxe",
+      "middleEnglish": "equinoxe"
+    },
+    "driftNotes": "Equal-night moment > balance of light and dark > the year's two poise-points; measured, elegant equilibrium.",
+    "candidates": ["Equia", "Nocti"],
+    "tone": "Latin",
+    "syllables": 3
+  },
+  {
+    "word": "Winter",
+    "semanticField": "Season / Stillness",
+    "layers": {
+      "pie": "*wed- (water, wet)",
+      "protoGermanic": "*wintruz (wet season)",
+      "oldEnglish": "winter",
+      "oldNorse": "vetr",
+      "middleEnglish": "winter"
+    },
+    "driftNotes": "Wet season > the cold hush of the year > endurance made beautiful; stark, clean, and quietly austere.",
+    "candidates": ["Wintra", "Vetr", "Wintar"],
+    "tone": "Germanic",
+    "syllables": 2
+  },
+  {
+    "word": "Vernal",
+    "semanticField": "Season / Youth",
+    "layers": {
+      "pie": "*wesr̥ (spring)",
+      "sanskrit": "vasantá (वसन्त, springtime)",
+      "ancientGreek": "éar (ἔαρ, spring)",
+      "classicalLatin": "vēr (spring), vernālis",
+      "middleEnglish": "vernal"
+    },
+    "driftNotes": "Springtime flowering > fresh and young > the year's eloquent opening; refined freshness without slang.",
+    "candidates": ["Verna", "Vasanta"],
+    "tone": "Latin",
+    "syllables": 2
+  },
+  {
+    "word": "Cycle",
+    "semanticField": "Time / Recurrence",
+    "layers": {
+      "pie": "*kʷel- (to turn)",
+      "sanskrit": "cakra (चक्र, wheel)",
+      "ancientGreek": "kýklos (κύκλος, circle)",
+      "classicalLatin": "cyclus",
+      "middleEnglish": "cicle"
+    },
+    "driftNotes": "Turning wheel > revolving orbit > dependable recurrence; motion and rhythm united for routine-friendly brands.",
+    "candidates": ["Kyklo", "Ciklo"],
+    "tone": "Greek",
+    "syllables": 2
+  },
+  {
+    "word": "Morrow",
+    "semanticField": "Time / Tomorrow",
+    "layers": {
+      "protoGermanic": "*murganaz (morning)",
+      "oldEnglish": "morgen (morning)",
+      "middleEnglish": "morwe"
+    },
+    "driftNotes": "Early morning > the day after today > a hopeful tomorrow; optimistic anticipation wearing Old-English tweed.",
+    "candidates": ["Morwe", "Morgi"],
+    "tone": "Germanic",
+    "syllables": 2
+  }
+]

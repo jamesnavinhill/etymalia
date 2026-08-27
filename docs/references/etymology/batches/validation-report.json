@@ -1,0 +1,38 @@
+{
+  "essence": {
+    "count": 60,
+    "dupesVsExisting270": [],
+    "localDupes": [],
+    "crossBatchDupes": [],
+    "issueCount": 0,
+    "issues": [],
+    "avgLayers": "4.17"
+  },
+  "virtue": {
+    "count": 60,
+    "dupesVsExisting270": [],
+    "localDupes": [],
+    "crossBatchDupes": [],
+    "issueCount": 0,
+    "issues": [],
+    "avgLayers": "3.67"
+  },
+  "harvest": {
+    "count": 60,
+    "dupesVsExisting270": [],
+    "localDupes": [],
+    "crossBatchDupes": [],
+    "issueCount": 0,
+    "issues": [],
+    "avgLayers": "3.47"
+  },
+  "lux": {
+    "count": 60,
+    "dupesVsExisting270": [],
+    "localDupes": [],
+    "crossBatchDupes": [],
+    "issueCount": 0,
+    "issues": [],
+    "avgLayers": "4.08"
+  }
+}

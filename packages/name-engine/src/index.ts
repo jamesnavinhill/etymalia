@@ -16,11 +16,32 @@ import {
 } from "./corpus";
 import { estimateSyllables, normalizeLetters, pronounceability } from "./phonetics";
 
-export { corpusMeta } from "./corpus";
+export { corpusMeta, entries } from "./corpus";
+
+export {
+  DEFAULT_MIX_LAYERS,
+  SUFFIX_FAMILIES,
+  TABLE_LAYERS,
+  etymologyTables,
+  headPiecesFor,
+  healSeam,
+  previewSplice,
+  suggestHybrids,
+  tailPiecesFor,
+  type BlendPiece,
+  type EtymologyTable,
+  type FormDescriptor,
+  type HybridPieceRef,
+  type HybridStrategy,
+  type HybridSuggestion,
+  type SuggestionOptions,
+  type SuffixFamily,
+} from "./mix";
 
 export type NameStrategy =
   | "curated"
   | "affixation"
+  | "suffixation"
   | "portmanteau"
   | "compound"
   | "truncation";

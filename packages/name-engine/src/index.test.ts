@@ -25,8 +25,8 @@ describe("name generation", () => {
 
   it("keeps every source-language and curated-candidate cell discoverable", () => {
     const allTerms = searchCatalogue();
-    expect(corpusMeta.entryCount).toBe(270);
-    expect(corpusMeta.languageFormCount).toBeGreaterThan(1_500);
+    expect(corpusMeta.entryCount).toBe(510);
+    expect(corpusMeta.languageFormCount).toBeGreaterThan(2_400);
     expect(catalogueMeta.termCount).toBe(allTerms.length);
     expect(allTerms.filter((term) => term.kind === "language-form")).toHaveLength(corpusMeta.languageFormCount);
     expect(allTerms.some((term) => term.kind === "curated-candidate")).toBe(true);
