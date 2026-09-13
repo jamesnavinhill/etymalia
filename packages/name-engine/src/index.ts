@@ -16,7 +16,7 @@ import {
 } from "./corpus";
 import { estimateSyllables, normalizeLetters, pronounceability } from "./phonetics";
 
-export { corpusMeta, entries } from "./corpus";
+export { corpusMeta, entries, languageLabel, toStem } from "./corpus";
 
 export {
   DEFAULT_MIX_LAYERS,

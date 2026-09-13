@@ -52,6 +52,9 @@ export default async function Home() {
                 Supabase configuration is required to begin
               </span>
             )}
+            <a className="button button--ghost" href="/names">
+              Etymology lab
+            </a>
             <a className="text-link" href="/api/health">
               Service health
             </a>
